@@ -1,0 +1,1849 @@
+10.1903 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+10.2327 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+21.6816 	INFO 	Loaded monitor calibration from ['2025_08_12 09:40']
+21.7911 	INFO 	Using renderer 'Apple M4' for graphics
+21.7911 	INFO 	OpenGL version supported by driver is 2..
+21.8132 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x1577140a0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x157714100>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x157740f70>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2940, 1912]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.8132 	EXP 	window1: backgroundImage = ''
+21.8132 	EXP 	window1: backgroundFit = 'none'
+22.0314 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+22.0314 	EXP 	window1: recordFrameIntervals = False
+22.1751 	EXP 	window1: recordFrameIntervals = True
+22.4594 	EXP 	Screen (0) actual frame rate measured at 121.24Hz
+22.4595 	EXP 	window1: recordFrameIntervals = False
+23.3433 	INFO 	keyboard.Keyboard is using ptb backend.
+23.5120 	INFO 	keyboard.Keyboard is using ptb backend.
+23.6796 	INFO 	keyboard.Keyboard is using ptb backend.
+23.8488 	INFO 	keyboard.Keyboard is using ptb backend.
+23.8488 	EXP 	solo project: status = STARTED
+23.8803 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.8826 	EXP 	Created fixation1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+23.8829 	EXP 	Created prime_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prime_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.8834 	EXP 	Created gap1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='gap1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.8836 	EXP 	Created target_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='target_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.8840 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.8857 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0133 	INFO 	Keyboard events cleared
+0.0132 	EXP 	instr_text: autoDraw = True
+15.9563 	EXP 	Device response: <KeyPress from None: t=15.806755375000648, value=space, duration=None>
+15.9564 	EXP 	Device response: <KeyPress from None: t=15.806755375000648, value=space, duration=0.09634166699834168>
+15.9595 	DATA 	Keypress: space
+15.9645 	EXP 	instr_text: autoDraw = False
+15.9645 	EXP 	fixation1: autoDraw = True
+16.4855 	EXP 	Imported /Users/ayk-j/Downloads/solo project_conditions-2.xlsx as conditions, 100 conditions, 5 params
+16.4881 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'prime': 'tree', 'target': 'leafw', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+16.4964 	EXP 	fixation1: autoDraw = False
+16.4964 	EXP 	fixation1: autoDraw = False
+16.4964 	EXP 	prime_text: height = np.float64(0.05)
+16.4964 	EXP 	prime_text: height = np.float64(0.05)
+16.4964 	EXP 	prime_text: height = np.float64(0.05)
+16.4964 	EXP 	prime_text: text = ' prime'
+16.4964 	EXP 	prime_text: autoDraw = True
+16.6140 	EXP 	prime_text: autoDraw = False
+16.6140 	EXP 	gap1: autoDraw = True
+16.6686 	INFO 	Keyboard events cleared
+16.6684 	EXP 	gap1: autoDraw = False
+16.6684 	EXP 	target_text: height = np.float64(0.05)
+16.6684 	EXP 	target_text: height = np.float64(0.05)
+16.6684 	EXP 	target_text: height = np.float64(0.05)
+16.6684 	EXP 	target_text: text = 'leafw'
+16.6684 	EXP 	target_text: autoDraw = True
+18.1631 	EXP 	target_text: autoDraw = False
+22.5085 	EXP 	Device response: <KeyPress from None: t=22.505551792004553, value=z, duration=None>
+22.5091 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'prime': 'fire', 'target': 'blanketi', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+22.5136 	DATA 	Keypress: z
+22.5196 	EXP 	target_text: autoDraw = False
+22.5196 	EXP 	prime_text: text = ' prime'
+22.5196 	EXP 	prime_text: autoDraw = True
+22.6634 	EXP 	prime_text: autoDraw = False
+22.6634 	EXP 	prime_text: autoDraw = False
+22.6634 	EXP 	gap1: autoDraw = True
+22.6751 	EXP 	Device response: <KeyPress from None: t=22.505551792004553, value=z, duration=0.16227979099494405>
+22.7181 	INFO 	Keyboard events cleared
+22.7180 	EXP 	gap1: autoDraw = False
+22.7180 	EXP 	gap1: autoDraw = False
+22.7180 	EXP 	target_text: height = np.float64(0.05)
+22.7180 	EXP 	target_text: height = np.float64(0.05)
+22.7180 	EXP 	target_text: height = np.float64(0.05)
+22.7180 	EXP 	target_text: text = 'blanketi'
+22.7180 	EXP 	target_text: autoDraw = True
+23.8144 	EXP 	Device response: <KeyPress from None: t=23.808507792004093, value=z, duration=None>
+23.8150 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'prime': 'bread', 'target': 'musicq', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+23.8278 	DATA 	Keypress: z
+23.8324 	EXP 	target_text: autoDraw = False
+23.8324 	EXP 	prime_text: text = ' prime'
+23.8324 	EXP 	prime_text: autoDraw = True
+23.9581 	EXP 	Device response: <KeyPress from None: t=23.808507792004093, value=z, duration=0.14431620799587108>
+23.9718 	EXP 	prime_text: autoDraw = False
+23.9718 	EXP 	gap1: autoDraw = True
+24.0180 	INFO 	Keyboard events cleared
+24.0178 	EXP 	gap1: autoDraw = False
+24.0178 	EXP 	gap1: autoDraw = False
+24.0178 	EXP 	target_text: height = np.float64(0.05)
+24.0178 	EXP 	target_text: height = np.float64(0.05)
+24.0178 	EXP 	target_text: height = np.float64(0.05)
+24.0178 	EXP 	target_text: text = 'musicq'
+24.0178 	EXP 	target_text: autoDraw = True
+24.8088 	EXP 	Device response: <KeyPress from None: t=24.79648137500044, value=z, duration=None>
+24.8094 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'prime': 'fire', 'target': 'heatt', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+24.8138 	DATA 	Keypress: z
+24.8195 	EXP 	target_text: autoDraw = False
+24.8195 	EXP 	prime_text: text = ' prime'
+24.8195 	EXP 	prime_text: autoDraw = True
+24.9317 	EXP 	Device response: <KeyPress from None: t=24.79648137500044, value=z, duration=0.1323454169978504>
+24.9633 	EXP 	prime_text: autoDraw = False
+24.9633 	EXP 	prime_text: autoDraw = False
+24.9633 	EXP 	gap1: autoDraw = True
+25.0227 	INFO 	Keyboard events cleared
+25.0225 	EXP 	gap1: autoDraw = False
+25.0225 	EXP 	gap1: autoDraw = False
+25.0225 	EXP 	target_text: height = np.float64(0.05)
+25.0225 	EXP 	target_text: height = np.float64(0.05)
+25.0225 	EXP 	target_text: height = np.float64(0.05)
+25.0225 	EXP 	target_text: text = 'heatt'
+25.0225 	EXP 	target_text: autoDraw = True
+25.7750 	EXP 	Device response: <KeyPress from None: t=25.770493292002357, value=z, duration=None>
+25.7756 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'prime': 'bird', 'target': 'cup', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+25.7801 	DATA 	Keypress: z
+25.7860 	EXP 	target_text: autoDraw = False
+25.7860 	EXP 	prime_text: text = ' prime'
+25.7860 	EXP 	prime_text: autoDraw = True
+25.8912 	EXP 	Device response: <KeyPress from None: t=25.770493292002357, value=z, duration=0.11625875000027008>
+25.9302 	EXP 	prime_text: autoDraw = False
+25.9302 	EXP 	prime_text: autoDraw = False
+25.9302 	EXP 	gap1: autoDraw = True
+25.9838 	INFO 	Keyboard events cleared
+25.9837 	EXP 	gap1: autoDraw = False
+25.9837 	EXP 	gap1: autoDraw = False
+25.9837 	EXP 	target_text: height = np.float64(0.05)
+25.9837 	EXP 	target_text: height = np.float64(0.05)
+25.9837 	EXP 	target_text: height = np.float64(0.05)
+25.9837 	EXP 	target_text: text = 'cup'
+25.9837 	EXP 	target_text: autoDraw = True
+26.5748 	EXP 	Device response: <KeyPress from None: t=26.56544620799832, value=m, duration=None>
+26.5752 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'prime': 'cat', 'target': 'dogt', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+26.5793 	DATA 	Keypress: m
+26.5849 	EXP 	target_text: autoDraw = False
+26.5849 	EXP 	prime_text: text = ' prime'
+26.5849 	EXP 	prime_text: autoDraw = True
+26.7300 	EXP 	prime_text: autoDraw = False
+26.7300 	EXP 	prime_text: autoDraw = False
+26.7300 	EXP 	gap1: autoDraw = True
+26.7318 	EXP 	Device response: <KeyPress from None: t=26.56544620799832, value=m, duration=0.16429312500258675>
+26.7895 	INFO 	Keyboard events cleared
+26.7892 	EXP 	gap1: autoDraw = False
+26.7892 	EXP 	gap1: autoDraw = False
+26.7892 	EXP 	target_text: height = np.float64(0.05)
+26.7892 	EXP 	target_text: height = np.float64(0.05)
+26.7892 	EXP 	target_text: height = np.float64(0.05)
+26.7892 	EXP 	target_text: text = 'dogt'
+26.7892 	EXP 	target_text: autoDraw = True
+27.4984 	EXP 	Device response: <KeyPress from None: t=27.493414500000654, value=z, duration=None>
+27.4991 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'prime': 'ball', 'target': 'mirror', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+27.5034 	DATA 	Keypress: z
+27.5092 	EXP 	target_text: autoDraw = False
+27.5092 	EXP 	prime_text: text = ' prime'
+27.5092 	EXP 	prime_text: autoDraw = True
+27.6145 	EXP 	Device response: <KeyPress from None: t=27.493414500000654, value=z, duration=0.1163075829972513>
+27.6560 	EXP 	prime_text: autoDraw = False
+27.6560 	EXP 	prime_text: autoDraw = False
+27.6560 	EXP 	gap1: autoDraw = True
+27.7017 	INFO 	Keyboard events cleared
+27.7015 	EXP 	gap1: autoDraw = False
+27.7015 	EXP 	gap1: autoDraw = False
+27.7015 	EXP 	target_text: height = np.float64(0.05)
+27.7015 	EXP 	target_text: height = np.float64(0.05)
+27.7015 	EXP 	target_text: height = np.float64(0.05)
+27.7015 	EXP 	target_text: text = 'mirror'
+27.7015 	EXP 	target_text: autoDraw = True
+28.2651 	EXP 	Device response: <KeyPress from None: t=28.260430916998303, value=m, duration=None>
+28.2657 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'prime': 'bird', 'target': 'wingl', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+28.2700 	DATA 	Keypress: m
+28.2757 	EXP 	target_text: autoDraw = False
+28.2757 	EXP 	prime_text: text = ' prime'
+28.2757 	EXP 	prime_text: autoDraw = True
+28.4078 	EXP 	Device response: <KeyPress from None: t=28.260430916998303, value=m, duration=0.14429899999959162>
+28.4224 	EXP 	prime_text: autoDraw = False
+28.4224 	EXP 	gap1: autoDraw = True
+28.4683 	INFO 	Keyboard events cleared
+28.4682 	EXP 	gap1: autoDraw = False
+28.4682 	EXP 	gap1: autoDraw = False
+28.4682 	EXP 	target_text: height = np.float64(0.05)
+28.4682 	EXP 	target_text: height = np.float64(0.05)
+28.4682 	EXP 	target_text: height = np.float64(0.05)
+28.4682 	EXP 	target_text: text = 'wingl'
+28.4682 	EXP 	target_text: autoDraw = True
+29.5249 	EXP 	Device response: <KeyPress from None: t=29.520410124998307, value=z, duration=None>
+29.5255 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'prime': 'sun', 'target': 'glassp', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+29.5301 	DATA 	Keypress: z
+29.5358 	EXP 	target_text: autoDraw = False
+29.5358 	EXP 	prime_text: text = ' prime'
+29.5358 	EXP 	prime_text: autoDraw = True
+29.6487 	EXP 	Device response: <KeyPress from None: t=29.520410124998307, value=z, duration=0.1203085830056807>
+29.6797 	EXP 	prime_text: autoDraw = False
+29.6797 	EXP 	prime_text: autoDraw = False
+29.6797 	EXP 	gap1: autoDraw = True
+29.7393 	INFO 	Keyboard events cleared
+29.7391 	EXP 	gap1: autoDraw = False
+29.7391 	EXP 	gap1: autoDraw = False
+29.7391 	EXP 	target_text: height = np.float64(0.05)
+29.7391 	EXP 	target_text: height = np.float64(0.05)
+29.7391 	EXP 	target_text: height = np.float64(0.05)
+29.7391 	EXP 	target_text: text = 'glassp'
+29.7391 	EXP 	target_text: autoDraw = True
+30.3315 	EXP 	Device response: <KeyPress from None: t=30.324395042000106, value=z, duration=None>
+30.3320 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'prime': 'teacher', 'target': 'student', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+30.3365 	DATA 	Keypress: z
+30.3428 	EXP 	target_text: autoDraw = False
+30.3428 	EXP 	prime_text: text = ' prime'
+30.3428 	EXP 	prime_text: autoDraw = True
+30.4898 	EXP 	prime_text: autoDraw = False
+30.4898 	EXP 	prime_text: autoDraw = False
+30.4898 	EXP 	gap1: autoDraw = True
+30.4914 	EXP 	Device response: <KeyPress from None: t=30.324395042000106, value=z, duration=0.1602769579985761>
+30.5403 	INFO 	Keyboard events cleared
+30.5401 	EXP 	gap1: autoDraw = False
+30.5401 	EXP 	gap1: autoDraw = False
+30.5401 	EXP 	target_text: height = np.float64(0.05)
+30.5401 	EXP 	target_text: height = np.float64(0.05)
+30.5401 	EXP 	target_text: height = np.float64(0.05)
+30.5401 	EXP 	target_text: text = 'student'
+30.5401 	EXP 	target_text: autoDraw = True
+31.0777 	EXP 	Device response: <KeyPress from None: t=31.076396208001825, value=m, duration=None>
+31.0778 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'prime': 'rain', 'target': 'engine', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+31.0878 	EXP 	target_text: autoDraw = False
+31.0878 	EXP 	prime_text: text = ' prime'
+31.0878 	EXP 	prime_text: autoDraw = True
+31.0894 	DATA 	Keypress: m
+31.2245 	EXP 	prime_text: autoDraw = False
+31.2245 	EXP 	prime_text: autoDraw = False
+31.2245 	EXP 	gap1: autoDraw = True
+31.2383 	EXP 	Device response: <KeyPress from None: t=31.076396208001825, value=m, duration=0.15218587499839487>
+31.2714 	EXP 	gap1: autoDraw = False
+31.2714 	EXP 	gap1: autoDraw = False
+31.2714 	EXP 	target_text: height = np.float64(0.05)
+31.2714 	EXP 	target_text: height = np.float64(0.05)
+31.2714 	EXP 	target_text: height = np.float64(0.05)
+31.2714 	EXP 	target_text: text = 'engine'
+31.2754 	INFO 	Keyboard events cleared
+31.2753 	EXP 	target_text: autoDraw = True
+31.8583 	EXP 	Device response: <KeyPress from None: t=31.853338624998287, value=z, duration=None>
+31.8588 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'prime': 'phone', 'target': 'callz', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+31.8633 	DATA 	Keypress: z
+31.8692 	EXP 	target_text: autoDraw = False
+31.8692 	EXP 	prime_text: text = ' prime'
+31.8692 	EXP 	prime_text: autoDraw = True
+31.9992 	EXP 	Device response: <KeyPress from None: t=31.853338624998287, value=z, duration=0.14031087500188733>
+32.0403 	EXP 	prime_text: autoDraw = False
+32.0403 	EXP 	gap1: autoDraw = True
+32.0747 	INFO 	Keyboard events cleared
+32.0745 	EXP 	gap1: autoDraw = False
+32.0745 	EXP 	target_text: height = np.float64(0.05)
+32.0745 	EXP 	target_text: height = np.float64(0.05)
+32.0745 	EXP 	target_text: height = np.float64(0.05)
+32.0745 	EXP 	target_text: text = 'callz'
+32.0745 	EXP 	target_text: autoDraw = True
+33.3149 	EXP 	Device response: <KeyPress from None: t=33.30725262500346, value=z, duration=None>
+33.3153 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'prime': 'king', 'target': 'queen', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+33.3200 	DATA 	Keypress: z
+33.3260 	EXP 	target_text: autoDraw = False
+33.3260 	EXP 	prime_text: text = ' prime'
+33.3260 	EXP 	prime_text: autoDraw = True
+33.4312 	EXP 	Device response: <KeyPress from None: t=33.30725262500346, value=z, duration=0.12033708299713908>
+33.4735 	EXP 	prime_text: autoDraw = False
+33.4735 	EXP 	prime_text: autoDraw = False
+33.4735 	EXP 	gap1: autoDraw = True
+33.5187 	INFO 	Keyboard events cleared
+33.5185 	EXP 	gap1: autoDraw = False
+33.5185 	EXP 	gap1: autoDraw = False
+33.5185 	EXP 	target_text: height = np.float64(0.05)
+33.5185 	EXP 	target_text: height = np.float64(0.05)
+33.5185 	EXP 	target_text: height = np.float64(0.05)
+33.5185 	EXP 	target_text: text = 'queen'
+33.5185 	EXP 	target_text: autoDraw = True
+34.0252 	EXP 	Device response: <KeyPress from None: t=34.017288167000515, value=m, duration=None>
+34.0258 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'prime': 'heart', 'target': 'mountain', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+34.0303 	DATA 	Keypress: m
+34.0360 	EXP 	target_text: autoDraw = False
+34.0360 	EXP 	prime_text: text = ' prime'
+34.0360 	EXP 	prime_text: autoDraw = True
+34.1807 	EXP 	prime_text: autoDraw = False
+34.1807 	EXP 	prime_text: autoDraw = False
+34.1807 	EXP 	gap1: autoDraw = True
+34.1825 	EXP 	Device response: <KeyPress from None: t=34.017288167000515, value=m, duration=0.15627541600406403>
+34.2344 	INFO 	Keyboard events cleared
+34.2343 	EXP 	gap1: autoDraw = False
+34.2343 	EXP 	gap1: autoDraw = False
+34.2343 	EXP 	target_text: height = np.float64(0.05)
+34.2343 	EXP 	target_text: height = np.float64(0.05)
+34.2343 	EXP 	target_text: height = np.float64(0.05)
+34.2343 	EXP 	target_text: text = 'mountain'
+34.2343 	EXP 	target_text: autoDraw = True
+34.9743 	EXP 	Device response: <KeyPress from None: t=34.96827325000049, value=m, duration=None>
+34.9749 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'prime': 'heart', 'target': 'beat', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+34.9794 	DATA 	Keypress: m
+34.9851 	EXP 	target_text: autoDraw = False
+34.9851 	EXP 	prime_text: text = ' prime'
+34.9851 	EXP 	prime_text: autoDraw = True
+35.1249 	EXP 	Device response: <KeyPress from None: t=34.96827325000049, value=m, duration=0.14828366700385232>
+35.1302 	EXP 	prime_text: autoDraw = False
+35.1302 	EXP 	prime_text: autoDraw = False
+35.1302 	EXP 	gap1: autoDraw = True
+35.1748 	INFO 	Keyboard events cleared
+35.1746 	EXP 	gap1: autoDraw = False
+35.1746 	EXP 	gap1: autoDraw = False
+35.1746 	EXP 	target_text: height = np.float64(0.05)
+35.1746 	EXP 	target_text: height = np.float64(0.05)
+35.1746 	EXP 	target_text: height = np.float64(0.05)
+35.1746 	EXP 	target_text: text = 'beat'
+35.1746 	EXP 	target_text: autoDraw = True
+36.0255 	EXP 	Device response: <KeyPress from None: t=36.01823449999938, value=m, duration=None>
+36.0261 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'prime': 'shirt', 'target': 'river', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+36.0307 	DATA 	Keypress: m
+36.0366 	EXP 	target_text: autoDraw = False
+36.0366 	EXP 	prime_text: text = ' prime'
+36.0366 	EXP 	prime_text: autoDraw = True
+36.1414 	EXP 	Device response: <KeyPress from None: t=36.01823449999938, value=m, duration=0.12026441700436408>
+36.1790 	EXP 	prime_text: autoDraw = False
+36.1790 	EXP 	prime_text: autoDraw = False
+36.1790 	EXP 	gap1: autoDraw = True
+36.2299 	INFO 	Keyboard events cleared
+36.2297 	EXP 	gap1: autoDraw = False
+36.2297 	EXP 	gap1: autoDraw = False
+36.2297 	EXP 	target_text: height = np.float64(0.05)
+36.2297 	EXP 	target_text: height = np.float64(0.05)
+36.2297 	EXP 	target_text: height = np.float64(0.05)
+36.2297 	EXP 	target_text: text = 'river'
+36.2297 	EXP 	target_text: autoDraw = True
+36.8071 	EXP 	Device response: <KeyPress from None: t=36.804179167003895, value=m, duration=None>
+36.8076 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'prime': 'ball', 'target': 'mirrord', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+36.8120 	DATA 	Keypress: m
+36.8178 	EXP 	target_text: autoDraw = False
+36.8178 	EXP 	prime_text: text = ' prime'
+36.8178 	EXP 	prime_text: autoDraw = True
+36.9584 	EXP 	Device response: <KeyPress from None: t=36.804179167003895, value=m, duration=0.14437079100025585>
+36.9662 	EXP 	prime_text: autoDraw = False
+36.9662 	EXP 	prime_text: autoDraw = False
+36.9662 	EXP 	gap1: autoDraw = True
+37.0175 	INFO 	Keyboard events cleared
+37.0174 	EXP 	gap1: autoDraw = False
+37.0174 	EXP 	gap1: autoDraw = False
+37.0174 	EXP 	target_text: height = np.float64(0.05)
+37.0174 	EXP 	target_text: height = np.float64(0.05)
+37.0174 	EXP 	target_text: height = np.float64(0.05)
+37.0174 	EXP 	target_text: text = 'mirrord'
+37.0174 	EXP 	target_text: autoDraw = True
+37.7413 	EXP 	Device response: <KeyPress from None: t=37.73116270799801, value=z, duration=None>
+37.7418 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'prime': 'shoe', 'target': 'keyboardm', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+37.7462 	DATA 	Keypress: z
+37.7520 	EXP 	target_text: autoDraw = False
+37.7520 	EXP 	prime_text: text = ' prime'
+37.7520 	EXP 	prime_text: autoDraw = True
+37.8585 	EXP 	Device response: <KeyPress from None: t=37.73116270799801, value=z, duration=0.12437895900075091>
+37.8969 	EXP 	prime_text: autoDraw = False
+37.8969 	EXP 	prime_text: autoDraw = False
+37.8969 	EXP 	gap1: autoDraw = True
+37.9421 	INFO 	Keyboard events cleared
+37.9419 	EXP 	gap1: autoDraw = False
+37.9419 	EXP 	gap1: autoDraw = False
+37.9419 	EXP 	target_text: height = np.float64(0.05)
+37.9419 	EXP 	target_text: height = np.float64(0.05)
+37.9419 	EXP 	target_text: height = np.float64(0.05)
+37.9419 	EXP 	target_text: text = 'keyboardm'
+37.9419 	EXP 	target_text: autoDraw = True
+38.9250 	EXP 	Device response: <KeyPress from None: t=38.91551395800343, value=z, duration=None>
+38.9256 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'prime': 'mother', 'target': 'bottlex', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+38.9300 	DATA 	Keypress: z
+38.9359 	EXP 	target_text: autoDraw = False
+38.9359 	EXP 	prime_text: text = ' prime'
+38.9359 	EXP 	prime_text: autoDraw = True
+39.0249 	EXP 	Device response: <KeyPress from None: t=38.91551395800343, value=z, duration=0.10399504199449439>
+39.0786 	EXP 	prime_text: autoDraw = False
+39.0786 	EXP 	prime_text: autoDraw = False
+39.0786 	EXP 	gap1: autoDraw = True
+39.1238 	INFO 	Keyboard events cleared
+39.1236 	EXP 	gap1: autoDraw = False
+39.1236 	EXP 	gap1: autoDraw = False
+39.1236 	EXP 	target_text: height = np.float64(0.05)
+39.1236 	EXP 	target_text: height = np.float64(0.05)
+39.1236 	EXP 	target_text: height = np.float64(0.05)
+39.1236 	EXP 	target_text: text = 'bottlex'
+39.1236 	EXP 	target_text: autoDraw = True
+39.8315 	EXP 	Device response: <KeyPress from None: t=39.828166708000936, value=z, duration=None>
+39.8321 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'prime': 'teacher', 'target': 'banana', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+39.8365 	DATA 	Keypress: z
+39.8420 	EXP 	target_text: autoDraw = False
+39.8420 	EXP 	prime_text: text = ' prime'
+39.8420 	EXP 	prime_text: autoDraw = True
+39.9482 	EXP 	Device response: <KeyPress from None: t=39.828166708000936, value=z, duration=0.11232183399988571>
+39.9896 	EXP 	prime_text: autoDraw = False
+39.9896 	EXP 	prime_text: autoDraw = False
+39.9896 	EXP 	gap1: autoDraw = True
+40.0336 	INFO 	Keyboard events cleared
+40.0334 	EXP 	gap1: autoDraw = False
+40.0334 	EXP 	gap1: autoDraw = False
+40.0334 	EXP 	target_text: height = np.float64(0.05)
+40.0334 	EXP 	target_text: height = np.float64(0.05)
+40.0334 	EXP 	target_text: height = np.float64(0.05)
+40.0334 	EXP 	target_text: text = 'banana'
+40.0334 	EXP 	target_text: autoDraw = True
+40.7252 	EXP 	Device response: <KeyPress from None: t=40.716159292001976, value=m, duration=None>
+40.7258 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'prime': 'salt', 'target': 'peppero', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+40.7303 	DATA 	Keypress: m
+40.7362 	EXP 	target_text: autoDraw = False
+40.7362 	EXP 	prime_text: text = ' prime'
+40.7362 	EXP 	prime_text: autoDraw = True
+40.8409 	EXP 	Device response: <KeyPress from None: t=40.716159292001976, value=m, duration=0.11628429099800996>
+40.8795 	EXP 	prime_text: autoDraw = False
+40.8795 	EXP 	prime_text: autoDraw = False
+40.8795 	EXP 	gap1: autoDraw = True
+40.9248 	INFO 	Keyboard events cleared
+40.9246 	EXP 	gap1: autoDraw = False
+40.9246 	EXP 	gap1: autoDraw = False
+40.9246 	EXP 	target_text: height = np.float64(0.05)
+40.9246 	EXP 	target_text: height = np.float64(0.05)
+40.9246 	EXP 	target_text: height = np.float64(0.05)
+40.9246 	EXP 	target_text: text = 'peppero'
+40.9246 	EXP 	target_text: autoDraw = True
+41.6480 	EXP 	Device response: <KeyPress from None: t=41.64509800000087, value=z, duration=None>
+41.6486 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'prime': 'book', 'target': 'hammerr', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+41.6526 	DATA 	Keypress: z
+41.6587 	EXP 	target_text: autoDraw = False
+41.6587 	EXP 	prime_text: text = ' prime'
+41.6587 	EXP 	prime_text: autoDraw = True
+41.7310 	EXP 	Device response: <KeyPress from None: t=41.64509800000087, value=z, duration=0.0803789580022567>
+41.8059 	EXP 	prime_text: autoDraw = False
+41.8059 	EXP 	prime_text: autoDraw = False
+41.8059 	EXP 	gap1: autoDraw = True
+41.8502 	INFO 	Keyboard events cleared
+41.8500 	EXP 	gap1: autoDraw = False
+41.8500 	EXP 	gap1: autoDraw = False
+41.8500 	EXP 	target_text: height = np.float64(0.05)
+41.8500 	EXP 	target_text: height = np.float64(0.05)
+41.8500 	EXP 	target_text: height = np.float64(0.05)
+41.8500 	EXP 	target_text: text = 'hammerr'
+41.8500 	EXP 	target_text: autoDraw = True
+42.6982 	EXP 	Device response: <KeyPress from None: t=42.6910780420003, value=z, duration=None>
+42.6987 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'prime': 'tree', 'target': 'leaf', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+42.7031 	DATA 	Keypress: z
+42.7091 	EXP 	target_text: autoDraw = False
+42.7091 	EXP 	prime_text: text = ' prime'
+42.7091 	EXP 	prime_text: autoDraw = True
+42.8081 	EXP 	Device response: <KeyPress from None: t=42.6910780420003, value=z, duration=0.10829170799843268>
+42.8562 	EXP 	prime_text: autoDraw = False
+42.8562 	EXP 	prime_text: autoDraw = False
+42.8562 	EXP 	gap1: autoDraw = True
+42.9005 	INFO 	Keyboard events cleared
+42.9004 	EXP 	gap1: autoDraw = False
+42.9004 	EXP 	gap1: autoDraw = False
+42.9004 	EXP 	target_text: height = np.float64(0.05)
+42.9004 	EXP 	target_text: height = np.float64(0.05)
+42.9004 	EXP 	target_text: height = np.float64(0.05)
+42.9004 	EXP 	target_text: text = 'leaf'
+42.9004 	EXP 	target_text: autoDraw = True
+43.6079 	EXP 	Device response: <KeyPress from None: t=43.6010659579988, value=m, duration=None>
+43.6084 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'prime': 'cup', 'target': 'tea', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+43.6127 	DATA 	Keypress: m
+43.6185 	EXP 	target_text: autoDraw = False
+43.6185 	EXP 	prime_text: text = ' prime'
+43.6185 	EXP 	prime_text: autoDraw = True
+43.7576 	EXP 	Device response: <KeyPress from None: t=43.6010659579988, value=m, duration=0.15227695900102844>
+43.7653 	EXP 	prime_text: autoDraw = False
+43.7653 	EXP 	prime_text: autoDraw = False
+43.7653 	EXP 	gap1: autoDraw = True
+43.8235 	INFO 	Keyboard events cleared
+43.8233 	EXP 	gap1: autoDraw = False
+43.8233 	EXP 	gap1: autoDraw = False
+43.8233 	EXP 	target_text: height = np.float64(0.05)
+43.8233 	EXP 	target_text: height = np.float64(0.05)
+43.8233 	EXP 	target_text: height = np.float64(0.05)
+43.8233 	EXP 	target_text: text = 'tea'
+43.8233 	EXP 	target_text: autoDraw = True
+44.5477 	EXP 	Device response: <KeyPress from None: t=44.540016124999966, value=z, duration=None>
+44.5482 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'prime': 'shoe', 'target': 'sock', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+44.5524 	DATA 	Keypress: z
+44.5589 	EXP 	target_text: autoDraw = False
+44.5589 	EXP 	prime_text: text = ' prime'
+44.5589 	EXP 	prime_text: autoDraw = True
+44.6645 	EXP 	Device response: <KeyPress from None: t=44.540016124999966, value=z, duration=0.11635883300186833>
+44.7063 	EXP 	prime_text: autoDraw = False
+44.7063 	EXP 	prime_text: autoDraw = False
+44.7063 	EXP 	gap1: autoDraw = True
+44.7503 	INFO 	Keyboard events cleared
+44.7502 	EXP 	gap1: autoDraw = False
+44.7502 	EXP 	gap1: autoDraw = False
+44.7502 	EXP 	target_text: height = np.float64(0.05)
+44.7502 	EXP 	target_text: height = np.float64(0.05)
+44.7502 	EXP 	target_text: height = np.float64(0.05)
+44.7502 	EXP 	target_text: text = 'sock'
+44.7502 	EXP 	target_text: autoDraw = True
+46.0814 	EXP 	Device response: <KeyPress from None: t=46.07899179200467, value=m, duration=None>
+46.0820 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'prime': 'sun', 'target': 'glass', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+46.0863 	DATA 	Keypress: m
+46.0920 	EXP 	target_text: autoDraw = False
+46.0920 	EXP 	prime_text: text = ' prime'
+46.0920 	EXP 	prime_text: autoDraw = True
+46.2250 	EXP 	Device response: <KeyPress from None: t=46.07899179200467, value=m, duration=0.1403468749995227>
+46.2392 	EXP 	prime_text: autoDraw = False
+46.2392 	EXP 	prime_text: autoDraw = False
+46.2392 	EXP 	gap1: autoDraw = True
+46.2841 	INFO 	Keyboard events cleared
+46.2839 	EXP 	gap1: autoDraw = False
+46.2839 	EXP 	gap1: autoDraw = False
+46.2839 	EXP 	target_text: height = np.float64(0.05)
+46.2839 	EXP 	target_text: height = np.float64(0.05)
+46.2839 	EXP 	target_text: height = np.float64(0.05)
+46.2839 	EXP 	target_text: text = 'glass'
+46.2839 	EXP 	target_text: autoDraw = True
+46.8411 	EXP 	Device response: <KeyPress from None: t=46.838986667004065, value=m, duration=None>
+46.8417 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'prime': 'salt', 'target': 'pepper', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+46.8459 	DATA 	Keypress: m
+46.8516 	EXP 	target_text: autoDraw = False
+46.8516 	EXP 	prime_text: text = ' prime'
+46.8516 	EXP 	prime_text: autoDraw = True
+46.9745 	EXP 	Device response: <KeyPress from None: t=46.838986667004065, value=m, duration=0.13230408299568808>
+46.9969 	EXP 	prime_text: autoDraw = False
+46.9969 	EXP 	prime_text: autoDraw = False
+46.9969 	EXP 	gap1: autoDraw = True
+47.0560 	INFO 	Keyboard events cleared
+47.0558 	EXP 	gap1: autoDraw = False
+47.0558 	EXP 	gap1: autoDraw = False
+47.0558 	EXP 	target_text: height = np.float64(0.05)
+47.0558 	EXP 	target_text: height = np.float64(0.05)
+47.0558 	EXP 	target_text: height = np.float64(0.05)
+47.0558 	EXP 	target_text: text = 'pepper'
+47.0558 	EXP 	target_text: autoDraw = True
+47.7148 	EXP 	Device response: <KeyPress from None: t=47.70999670799938, value=m, duration=None>
+47.7154 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'prime': 'fire', 'target': 'heat', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+47.7198 	DATA 	Keypress: m
+47.7257 	EXP 	target_text: autoDraw = False
+47.7257 	EXP 	prime_text: text = ' prime'
+47.7257 	EXP 	prime_text: autoDraw = True
+47.8411 	EXP 	Device response: <KeyPress from None: t=47.70999670799938, value=m, duration=0.12425537500530481>
+47.8729 	EXP 	prime_text: autoDraw = False
+47.8729 	EXP 	prime_text: autoDraw = False
+47.8729 	EXP 	gap1: autoDraw = True
+47.9175 	INFO 	Keyboard events cleared
+47.9173 	EXP 	gap1: autoDraw = False
+47.9173 	EXP 	gap1: autoDraw = False
+47.9173 	EXP 	target_text: height = np.float64(0.05)
+47.9173 	EXP 	target_text: height = np.float64(0.05)
+47.9173 	EXP 	target_text: height = np.float64(0.05)
+47.9173 	EXP 	target_text: text = 'heat'
+47.9173 	EXP 	target_text: autoDraw = True
+48.7920 	EXP 	Device response: <KeyPress from None: t=48.78201262500079, value=m, duration=None>
+48.7925 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'prime': 'car', 'target': 'engine', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+48.7968 	DATA 	Keypress: m
+48.8025 	EXP 	target_text: autoDraw = False
+48.8025 	EXP 	prime_text: text = ' prime'
+48.8025 	EXP 	prime_text: autoDraw = True
+48.9082 	EXP 	Device response: <KeyPress from None: t=48.78201262500079, value=m, duration=0.11628333300177474>
+48.9465 	EXP 	prime_text: autoDraw = False
+48.9465 	EXP 	prime_text: autoDraw = False
+48.9465 	EXP 	gap1: autoDraw = True
+48.9904 	INFO 	Keyboard events cleared
+48.9902 	EXP 	gap1: autoDraw = False
+48.9902 	EXP 	gap1: autoDraw = False
+48.9902 	EXP 	target_text: height = np.float64(0.05)
+48.9902 	EXP 	target_text: height = np.float64(0.05)
+48.9902 	EXP 	target_text: height = np.float64(0.05)
+48.9902 	EXP 	target_text: text = 'engine'
+48.9902 	EXP 	target_text: autoDraw = True
+49.5748 	EXP 	Device response: <KeyPress from None: t=49.57293466699775, value=m, duration=None>
+49.5754 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'prime': 'cup', 'target': 'bricku', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+49.5795 	DATA 	Keypress: m
+49.5853 	EXP 	target_text: autoDraw = False
+49.5853 	EXP 	prime_text: text = ' prime'
+49.5853 	EXP 	prime_text: autoDraw = True
+49.7248 	EXP 	Device response: <KeyPress from None: t=49.57293466699775, value=m, duration=0.14430762500705896>
+49.7302 	EXP 	prime_text: autoDraw = False
+49.7302 	EXP 	prime_text: autoDraw = False
+49.7302 	EXP 	gap1: autoDraw = True
+49.7892 	INFO 	Keyboard events cleared
+49.7890 	EXP 	gap1: autoDraw = False
+49.7890 	EXP 	gap1: autoDraw = False
+49.7890 	EXP 	target_text: height = np.float64(0.05)
+49.7890 	EXP 	target_text: height = np.float64(0.05)
+49.7890 	EXP 	target_text: height = np.float64(0.05)
+49.7890 	EXP 	target_text: text = 'bricku'
+49.7890 	EXP 	target_text: autoDraw = True
+50.3578 	EXP 	Device response: <KeyPress from None: t=50.351916542000254, value=z, duration=None>
+50.3584 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'prime': 'flower', 'target': 'petal', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+50.3610 	DATA 	Keypress: z
+50.3652 	EXP 	target_text: autoDraw = False
+50.3652 	EXP 	prime_text: text = ' prime'
+50.3652 	EXP 	prime_text: autoDraw = True
+50.4816 	EXP 	Device response: <KeyPress from None: t=50.351916542000254, value=z, duration=0.12436558300396428>
+50.5102 	EXP 	prime_text: autoDraw = False
+50.5102 	EXP 	prime_text: autoDraw = False
+50.5102 	EXP 	gap1: autoDraw = True
+50.5580 	INFO 	Keyboard events cleared
+50.5578 	EXP 	gap1: autoDraw = False
+50.5578 	EXP 	gap1: autoDraw = False
+50.5578 	EXP 	target_text: height = np.float64(0.05)
+50.5578 	EXP 	target_text: height = np.float64(0.05)
+50.5578 	EXP 	target_text: height = np.float64(0.05)
+50.5578 	EXP 	target_text: text = 'petal'
+50.5578 	EXP 	target_text: autoDraw = True
+51.1306 	EXP 	Device response: <KeyPress from None: t=51.12487429199973, value=m, duration=None>
+51.1312 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'prime': 'teacher', 'target': 'studenth', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+51.1354 	DATA 	Keypress: m
+51.1418 	EXP 	target_text: autoDraw = False
+51.1418 	EXP 	prime_text: text = ' prime'
+51.1418 	EXP 	prime_text: autoDraw = True
+51.2477 	EXP 	Device response: <KeyPress from None: t=51.12487429199973, value=m, duration=0.11636362499848474>
+51.2893 	EXP 	prime_text: autoDraw = False
+51.2893 	EXP 	prime_text: autoDraw = False
+51.2893 	EXP 	gap1: autoDraw = True
+51.3333 	INFO 	Keyboard events cleared
+51.3331 	EXP 	gap1: autoDraw = False
+51.3331 	EXP 	gap1: autoDraw = False
+51.3331 	EXP 	target_text: height = np.float64(0.05)
+51.3331 	EXP 	target_text: height = np.float64(0.05)
+51.3331 	EXP 	target_text: height = np.float64(0.05)
+51.3331 	EXP 	target_text: text = 'studenth'
+51.3331 	EXP 	target_text: autoDraw = True
+51.9644 	EXP 	Device response: <KeyPress from None: t=51.95892579200154, value=m, duration=None>
+51.9650 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'prime': 'phone', 'target': 'call', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+51.9694 	DATA 	Keypress: m
+51.9756 	EXP 	target_text: autoDraw = False
+51.9756 	EXP 	prime_text: text = ' prime'
+51.9756 	EXP 	prime_text: autoDraw = True
+52.0249 	EXP 	Device response: <KeyPress from None: t=51.95892579200154, value=m, duration=0.05629354099801276>
+52.1227 	EXP 	prime_text: autoDraw = False
+52.1227 	EXP 	prime_text: autoDraw = False
+52.1227 	EXP 	gap1: autoDraw = True
+52.1673 	INFO 	Keyboard events cleared
+52.1671 	EXP 	gap1: autoDraw = False
+52.1671 	EXP 	gap1: autoDraw = False
+52.1671 	EXP 	target_text: height = np.float64(0.05)
+52.1671 	EXP 	target_text: height = np.float64(0.05)
+52.1671 	EXP 	target_text: height = np.float64(0.05)
+52.1671 	EXP 	target_text: text = 'call'
+52.1671 	EXP 	target_text: autoDraw = True
+53.6628 	EXP 	target_text: autoDraw = False
+54.9314 	EXP 	Device response: <KeyPress from None: t=54.92680904200097, value=m, duration=None>
+54.9320 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'prime': 'river', 'target': 'waterr', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+54.9365 	DATA 	Keypress: m
+54.9422 	EXP 	target_text: autoDraw = False
+54.9422 	EXP 	prime_text: text = ' prime'
+54.9422 	EXP 	prime_text: autoDraw = True
+55.0244 	EXP 	Device response: <KeyPress from None: t=54.92680904200097, value=m, duration=0.09232591599720763>
+55.0890 	EXP 	prime_text: autoDraw = False
+55.0890 	EXP 	prime_text: autoDraw = False
+55.0890 	EXP 	gap1: autoDraw = True
+55.1337 	INFO 	Keyboard events cleared
+55.1335 	EXP 	gap1: autoDraw = False
+55.1335 	EXP 	gap1: autoDraw = False
+55.1335 	EXP 	target_text: height = np.float64(0.05)
+55.1335 	EXP 	target_text: height = np.float64(0.05)
+55.1335 	EXP 	target_text: height = np.float64(0.05)
+55.1335 	EXP 	target_text: text = 'waterr'
+55.1335 	EXP 	target_text: autoDraw = True
+55.8248 	EXP 	Device response: <KeyPress from None: t=55.81983050000417, value=z, duration=None>
+55.8253 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'prime': 'mother', 'target': 'child', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+55.8300 	DATA 	Keypress: z
+55.8361 	EXP 	target_text: autoDraw = False
+55.8361 	EXP 	prime_text: text = ' prime'
+55.8361 	EXP 	prime_text: autoDraw = True
+55.9482 	EXP 	Device response: <KeyPress from None: t=55.81983050000417, value=z, duration=0.12428662499587517>
+55.9796 	EXP 	prime_text: autoDraw = False
+55.9796 	EXP 	prime_text: autoDraw = False
+55.9796 	EXP 	gap1: autoDraw = True
+56.0234 	INFO 	Keyboard events cleared
+56.0232 	EXP 	gap1: autoDraw = False
+56.0232 	EXP 	gap1: autoDraw = False
+56.0232 	EXP 	target_text: height = np.float64(0.05)
+56.0232 	EXP 	target_text: height = np.float64(0.05)
+56.0232 	EXP 	target_text: height = np.float64(0.05)
+56.0232 	EXP 	target_text: text = 'child'
+56.0232 	EXP 	target_text: autoDraw = True
+56.9082 	EXP 	Device response: <KeyPress from None: t=56.905763583003136, value=m, duration=None>
+56.9087 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'prime': 'book', 'target': 'page', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+56.9131 	DATA 	Keypress: m
+56.9188 	EXP 	target_text: autoDraw = False
+56.9188 	EXP 	prime_text: text = ' prime'
+56.9188 	EXP 	prime_text: autoDraw = True
+57.0152 	EXP 	Device response: <KeyPress from None: t=56.905763583003136, value=m, duration=0.10432037500140723>
+57.0630 	EXP 	prime_text: autoDraw = False
+57.0630 	EXP 	prime_text: autoDraw = False
+57.0630 	EXP 	gap1: autoDraw = True
+57.1227 	INFO 	Keyboard events cleared
+57.1224 	EXP 	gap1: autoDraw = False
+57.1224 	EXP 	gap1: autoDraw = False
+57.1224 	EXP 	target_text: height = np.float64(0.05)
+57.1224 	EXP 	target_text: height = np.float64(0.05)
+57.1224 	EXP 	target_text: height = np.float64(0.05)
+57.1224 	EXP 	target_text: text = 'page'
+57.1224 	EXP 	target_text: autoDraw = True
+57.9582 	EXP 	Device response: <KeyPress from None: t=57.948714208003366, value=m, duration=None>
+57.9587 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'prime': 'shoe', 'target': 'keyboard', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+57.9631 	DATA 	Keypress: m
+57.9688 	EXP 	target_text: autoDraw = False
+57.9688 	EXP 	prime_text: text = ' prime'
+57.9688 	EXP 	prime_text: autoDraw = True
+58.1084 	EXP 	Device response: <KeyPress from None: t=57.948714208003366, value=m, duration=0.15229600000020582>
+58.1162 	EXP 	prime_text: autoDraw = False
+58.1162 	EXP 	prime_text: autoDraw = False
+58.1162 	EXP 	gap1: autoDraw = True
+58.1675 	INFO 	Keyboard events cleared
+58.1673 	EXP 	gap1: autoDraw = False
+58.1673 	EXP 	gap1: autoDraw = False
+58.1673 	EXP 	target_text: height = np.float64(0.05)
+58.1673 	EXP 	target_text: height = np.float64(0.05)
+58.1673 	EXP 	target_text: height = np.float64(0.05)
+58.1673 	EXP 	target_text: text = 'keyboard'
+58.1673 	EXP 	target_text: autoDraw = True
+59.6624 	EXP 	target_text: autoDraw = False
+60.0746 	EXP 	Device response: <KeyPress from None: t=60.07070720800402, value=m, duration=None>
+60.0752 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'prime': 'shirt', 'target': 'clothp', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+60.0792 	DATA 	Keypress: m
+60.0836 	EXP 	target_text: autoDraw = False
+60.0836 	EXP 	prime_text: text = ' prime'
+60.0836 	EXP 	prime_text: autoDraw = True
+60.1910 	EXP 	Device response: <KeyPress from None: t=60.07070720800402, value=m, duration=0.11630045899801189>
+60.2300 	EXP 	prime_text: autoDraw = False
+60.2300 	EXP 	prime_text: autoDraw = False
+60.2300 	EXP 	gap1: autoDraw = True
+60.2880 	INFO 	Keyboard events cleared
+60.2879 	EXP 	gap1: autoDraw = False
+60.2879 	EXP 	gap1: autoDraw = False
+60.2879 	EXP 	target_text: height = np.float64(0.05)
+60.2879 	EXP 	target_text: height = np.float64(0.05)
+60.2879 	EXP 	target_text: height = np.float64(0.05)
+60.2879 	EXP 	target_text: text = 'clothp'
+60.2879 	EXP 	target_text: autoDraw = True
+61.1317 	EXP 	Device response: <KeyPress from None: t=61.124590958002955, value=z, duration=None>
+61.1323 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'prime': 'rain', 'target': 'enginez', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+61.1366 	DATA 	Keypress: z
+61.1419 	EXP 	target_text: autoDraw = False
+61.1419 	EXP 	prime_text: text = ' prime'
+61.1419 	EXP 	prime_text: autoDraw = True
+61.2649 	EXP 	Device response: <KeyPress from None: t=61.124590958002955, value=z, duration=0.13237300000037067>
+61.2894 	EXP 	prime_text: autoDraw = False
+61.2894 	EXP 	prime_text: autoDraw = False
+61.2894 	EXP 	gap1: autoDraw = True
+61.3344 	INFO 	Keyboard events cleared
+61.3342 	EXP 	gap1: autoDraw = False
+61.3342 	EXP 	gap1: autoDraw = False
+61.3342 	EXP 	target_text: height = np.float64(0.05)
+61.3342 	EXP 	target_text: height = np.float64(0.05)
+61.3342 	EXP 	target_text: height = np.float64(0.05)
+61.3342 	EXP 	target_text: text = 'enginez'
+61.3342 	EXP 	target_text: autoDraw = True
+61.9742 	EXP 	Device response: <KeyPress from None: t=61.96894745800091, value=z, duration=None>
+61.9747 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'prime': 'road', 'target': 'candley', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+61.9791 	DATA 	Keypress: z
+61.9848 	EXP 	target_text: autoDraw = False
+61.9848 	EXP 	prime_text: text = ' prime'
+61.9848 	EXP 	prime_text: autoDraw = True
+62.0918 	EXP 	Device response: <KeyPress from None: t=61.96894745800091, value=z, duration=0.12008487500133924>
+62.1307 	EXP 	prime_text: autoDraw = False
+62.1307 	EXP 	prime_text: autoDraw = False
+62.1307 	EXP 	gap1: autoDraw = True
+62.1892 	INFO 	Keyboard events cleared
+62.1889 	EXP 	gap1: autoDraw = False
+62.1889 	EXP 	gap1: autoDraw = False
+62.1889 	EXP 	target_text: height = np.float64(0.05)
+62.1889 	EXP 	target_text: height = np.float64(0.05)
+62.1889 	EXP 	target_text: height = np.float64(0.05)
+62.1889 	EXP 	target_text: text = 'candley'
+62.1889 	EXP 	target_text: autoDraw = True
+62.7577 	EXP 	Device response: <KeyPress from None: t=62.74861454200436, value=z, duration=None>
+62.7584 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'prime': 'king', 'target': 'markerv', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+62.7627 	DATA 	Keypress: z
+62.7683 	EXP 	target_text: autoDraw = False
+62.7683 	EXP 	prime_text: text = ' prime'
+62.7683 	EXP 	prime_text: autoDraw = True
+62.8808 	EXP 	Device response: <KeyPress from None: t=62.74861454200436, value=z, duration=0.1282998749957187>
+62.9132 	EXP 	prime_text: autoDraw = False
+62.9132 	EXP 	prime_text: autoDraw = False
+62.9132 	EXP 	gap1: autoDraw = True
+62.9568 	INFO 	Keyboard events cleared
+62.9566 	EXP 	gap1: autoDraw = False
+62.9566 	EXP 	gap1: autoDraw = False
+62.9566 	EXP 	target_text: height = np.float64(0.05)
+62.9566 	EXP 	target_text: height = np.float64(0.05)
+62.9566 	EXP 	target_text: height = np.float64(0.05)
+62.9566 	EXP 	target_text: text = 'markerv'
+62.9566 	EXP 	target_text: autoDraw = True
+63.6416 	EXP 	Device response: <KeyPress from None: t=63.62962200000038, value=z, duration=None>
+63.6423 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'prime': 'road', 'target': 'candle', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+63.6467 	DATA 	Keypress: z
+63.6525 	EXP 	target_text: autoDraw = False
+63.6525 	EXP 	prime_text: text = ' prime'
+63.6525 	EXP 	prime_text: autoDraw = True
+63.7748 	EXP 	Device response: <KeyPress from None: t=63.62962200000038, value=z, duration=0.13631554200401297>
+63.7955 	EXP 	prime_text: autoDraw = False
+63.7955 	EXP 	prime_text: autoDraw = False
+63.7955 	EXP 	gap1: autoDraw = True
+63.8417 	INFO 	Keyboard events cleared
+63.8416 	EXP 	gap1: autoDraw = False
+63.8416 	EXP 	gap1: autoDraw = False
+63.8416 	EXP 	target_text: height = np.float64(0.05)
+63.8416 	EXP 	target_text: height = np.float64(0.05)
+63.8416 	EXP 	target_text: height = np.float64(0.05)
+63.8416 	EXP 	target_text: text = 'candle'
+63.8416 	EXP 	target_text: autoDraw = True
+64.4408 	EXP 	Device response: <KeyPress from None: t=64.43763516699983, value=m, duration=None>
+64.4413 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'prime': 'king', 'target': 'queenm', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+64.4453 	DATA 	Keypress: m
+64.4495 	EXP 	target_text: autoDraw = False
+64.4495 	EXP 	prime_text: text = ' prime'
+64.4495 	EXP 	prime_text: autoDraw = True
+64.5967 	EXP 	prime_text: autoDraw = False
+64.5967 	EXP 	prime_text: autoDraw = False
+64.5967 	EXP 	gap1: autoDraw = True
+64.6240 	EXP 	Device response: <KeyPress from None: t=64.43763516699983, value=m, duration=0.1803137910028454>
+64.6421 	INFO 	Keyboard events cleared
+64.6419 	EXP 	gap1: autoDraw = False
+64.6419 	EXP 	gap1: autoDraw = False
+64.6419 	EXP 	target_text: height = np.float64(0.05)
+64.6419 	EXP 	target_text: height = np.float64(0.05)
+64.6419 	EXP 	target_text: height = np.float64(0.05)
+64.6419 	EXP 	target_text: text = 'queenm'
+64.6419 	EXP 	target_text: autoDraw = True
+65.4821 	EXP 	Device response: <KeyPress from None: t=65.47956583300402, value=z, duration=None>
+65.4826 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'prime': 'sun', 'target': 'lighta', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+65.4864 	DATA 	Keypress: z
+65.4922 	EXP 	target_text: autoDraw = False
+65.4922 	EXP 	prime_text: text = ' prime'
+65.4922 	EXP 	prime_text: autoDraw = True
+65.6315 	EXP 	Device response: <KeyPress from None: t=65.47956583300402, value=z, duration=0.14434341699961806>
+65.6397 	EXP 	prime_text: autoDraw = False
+65.6397 	EXP 	prime_text: autoDraw = False
+65.6397 	EXP 	gap1: autoDraw = True
+65.6841 	INFO 	Keyboard events cleared
+65.6840 	EXP 	gap1: autoDraw = False
+65.6840 	EXP 	gap1: autoDraw = False
+65.6840 	EXP 	target_text: height = np.float64(0.05)
+65.6840 	EXP 	target_text: height = np.float64(0.05)
+65.6840 	EXP 	target_text: height = np.float64(0.05)
+65.6840 	EXP 	target_text: text = 'lighta'
+65.6840 	EXP 	target_text: autoDraw = True
+66.4476 	EXP 	Device response: <KeyPress from None: t=66.44053045799956, value=z, duration=None>
+66.4481 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'prime': 'phone', 'target': 'forestt', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+66.4525 	DATA 	Keypress: z
+66.4586 	EXP 	target_text: autoDraw = False
+66.4586 	EXP 	prime_text: text = ' prime'
+66.4586 	EXP 	prime_text: autoDraw = True
+66.5643 	EXP 	Device response: <KeyPress from None: t=66.44053045799956, value=z, duration=0.1203314170052181>
+66.6060 	EXP 	prime_text: autoDraw = False
+66.6060 	EXP 	prime_text: autoDraw = False
+66.6060 	EXP 	gap1: autoDraw = True
+66.6508 	INFO 	Keyboard events cleared
+66.6506 	EXP 	gap1: autoDraw = False
+66.6506 	EXP 	gap1: autoDraw = False
+66.6506 	EXP 	target_text: height = np.float64(0.05)
+66.6506 	EXP 	target_text: height = np.float64(0.05)
+66.6506 	EXP 	target_text: height = np.float64(0.05)
+66.6506 	EXP 	target_text: text = 'forestt'
+66.6506 	EXP 	target_text: autoDraw = True
+67.4084 	EXP 	Device response: <KeyPress from None: t=67.40653854200355, value=z, duration=None>
+67.4090 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'prime': 'doctor', 'target': 'nurse', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+67.4131 	DATA 	Keypress: z
+67.4187 	EXP 	target_text: autoDraw = False
+67.4187 	EXP 	prime_text: text = ' prime'
+67.4187 	EXP 	prime_text: autoDraw = True
+67.5629 	EXP 	prime_text: autoDraw = False
+67.5629 	EXP 	prime_text: autoDraw = False
+67.5629 	EXP 	gap1: autoDraw = True
+67.5646 	EXP 	Device response: <KeyPress from None: t=67.40653854200355, value=z, duration=0.1523421249949024>
+67.6071 	INFO 	Keyboard events cleared
+67.6069 	EXP 	gap1: autoDraw = False
+67.6069 	EXP 	gap1: autoDraw = False
+67.6069 	EXP 	target_text: height = np.float64(0.05)
+67.6069 	EXP 	target_text: height = np.float64(0.05)
+67.6069 	EXP 	target_text: height = np.float64(0.05)
+67.6069 	EXP 	target_text: text = 'nurse'
+67.6069 	EXP 	target_text: autoDraw = True
+68.1911 	EXP 	Device response: <KeyPress from None: t=68.18750691699825, value=m, duration=None>
+68.1916 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'prime': 'tree', 'target': 'speakert', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+68.1942 	DATA 	Keypress: m
+68.1999 	EXP 	target_text: autoDraw = False
+68.1999 	EXP 	prime_text: text = ' prime'
+68.1999 	EXP 	prime_text: autoDraw = True
+68.3308 	EXP 	Device response: <KeyPress from None: t=68.18750691699825, value=m, duration=0.14034683300269535>
+68.3459 	EXP 	prime_text: autoDraw = False
+68.3459 	EXP 	prime_text: autoDraw = False
+68.3459 	EXP 	gap1: autoDraw = True
+68.4057 	INFO 	Keyboard events cleared
+68.4055 	EXP 	gap1: autoDraw = False
+68.4055 	EXP 	gap1: autoDraw = False
+68.4055 	EXP 	target_text: height = np.float64(0.05)
+68.4055 	EXP 	target_text: height = np.float64(0.05)
+68.4055 	EXP 	target_text: height = np.float64(0.05)
+68.4055 	EXP 	target_text: text = 'speakert'
+68.4055 	EXP 	target_text: autoDraw = True
+69.1480 	EXP 	Device response: <KeyPress from None: t=69.14252195799781, value=z, duration=None>
+69.1485 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'prime': 'cup', 'target': 'teaf', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+69.1530 	DATA 	Keypress: z
+69.1588 	EXP 	target_text: autoDraw = False
+69.1588 	EXP 	prime_text: text = ' prime'
+69.1588 	EXP 	prime_text: autoDraw = True
+69.2744 	EXP 	Device response: <KeyPress from None: t=69.14252195799781, value=z, duration=0.12830329200369306>
+69.3060 	EXP 	prime_text: autoDraw = False
+69.3060 	EXP 	prime_text: autoDraw = False
+69.3060 	EXP 	gap1: autoDraw = True
+69.3514 	INFO 	Keyboard events cleared
+69.3512 	EXP 	gap1: autoDraw = False
+69.3512 	EXP 	gap1: autoDraw = False
+69.3512 	EXP 	target_text: height = np.float64(0.05)
+69.3512 	EXP 	target_text: height = np.float64(0.05)
+69.3512 	EXP 	target_text: height = np.float64(0.05)
+69.3512 	EXP 	target_text: text = 'teaf'
+69.3512 	EXP 	target_text: autoDraw = True
+70.0912 	EXP 	Device response: <KeyPress from None: t=70.08549741699971, value=z, duration=None>
+70.0918 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'prime': 'ball', 'target': 'gameu', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+70.0963 	DATA 	Keypress: z
+70.1020 	EXP 	target_text: autoDraw = False
+70.1020 	EXP 	prime_text: text = ' prime'
+70.1020 	EXP 	prime_text: autoDraw = True
+70.1909 	EXP 	Device response: <KeyPress from None: t=70.08549741699971, value=z, duration=0.10026420799840707>
+70.2465 	EXP 	prime_text: autoDraw = False
+70.2465 	EXP 	prime_text: autoDraw = False
+70.2465 	EXP 	gap1: autoDraw = True
+70.3059 	INFO 	Keyboard events cleared
+70.3056 	EXP 	gap1: autoDraw = False
+70.3056 	EXP 	gap1: autoDraw = False
+70.3056 	EXP 	target_text: height = np.float64(0.05)
+70.3056 	EXP 	target_text: height = np.float64(0.05)
+70.3056 	EXP 	target_text: height = np.float64(0.05)
+70.3056 	EXP 	target_text: text = 'gameu'
+70.3056 	EXP 	target_text: autoDraw = True
+71.0243 	EXP 	Device response: <KeyPress from None: t=71.01944666700001, value=z, duration=None>
+71.0249 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'prime': 'teacher', 'target': 'bananaz', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+71.0291 	DATA 	Keypress: z
+71.0344 	EXP 	target_text: autoDraw = False
+71.0344 	EXP 	prime_text: text = ' prime'
+71.0344 	EXP 	prime_text: autoDraw = True
+71.1477 	EXP 	Device response: <KeyPress from None: t=71.01944666700001, value=z, duration=0.12447904099826701>
+71.1801 	EXP 	prime_text: autoDraw = False
+71.1801 	EXP 	prime_text: autoDraw = False
+71.1801 	EXP 	gap1: autoDraw = True
+71.2249 	INFO 	Keyboard events cleared
+71.2247 	EXP 	gap1: autoDraw = False
+71.2247 	EXP 	gap1: autoDraw = False
+71.2247 	EXP 	target_text: height = np.float64(0.05)
+71.2247 	EXP 	target_text: height = np.float64(0.05)
+71.2247 	EXP 	target_text: height = np.float64(0.05)
+71.2247 	EXP 	target_text: text = 'bananaz'
+71.2247 	EXP 	target_text: autoDraw = True
+71.8581 	EXP 	Device response: <KeyPress from None: t=71.84644095800468, value=z, duration=None>
+71.8588 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'prime': 'heart', 'target': 'beatu', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+71.8631 	DATA 	Keypress: z
+71.8682 	EXP 	target_text: autoDraw = False
+71.8682 	EXP 	prime_text: text = ' prime'
+71.8682 	EXP 	prime_text: autoDraw = True
+71.9478 	EXP 	Device response: <KeyPress from None: t=71.84644095800468, value=z, duration=0.0962968749954598>
+72.0129 	EXP 	prime_text: autoDraw = False
+72.0129 	EXP 	prime_text: autoDraw = False
+72.0129 	EXP 	gap1: autoDraw = True
+72.0570 	INFO 	Keyboard events cleared
+72.0568 	EXP 	gap1: autoDraw = False
+72.0568 	EXP 	gap1: autoDraw = False
+72.0568 	EXP 	target_text: height = np.float64(0.05)
+72.0568 	EXP 	target_text: height = np.float64(0.05)
+72.0568 	EXP 	target_text: height = np.float64(0.05)
+72.0568 	EXP 	target_text: text = 'beatu'
+72.0568 	EXP 	target_text: autoDraw = True
+72.6915 	EXP 	Device response: <KeyPress from None: t=72.67941145800432, value=z, duration=None>
+72.6922 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'prime': 'cup', 'target': 'brick', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+72.6965 	DATA 	Keypress: z
+72.7021 	EXP 	target_text: autoDraw = False
+72.7021 	EXP 	prime_text: text = ' prime'
+72.7021 	EXP 	prime_text: autoDraw = True
+72.7904 	EXP 	Device response: <KeyPress from None: t=72.67941145800432, value=z, duration=0.10828612499608425>
+72.8463 	EXP 	prime_text: autoDraw = False
+72.8463 	EXP 	prime_text: autoDraw = False
+72.8463 	EXP 	gap1: autoDraw = True
+72.8902 	INFO 	Keyboard events cleared
+72.8900 	EXP 	gap1: autoDraw = False
+72.8900 	EXP 	gap1: autoDraw = False
+72.8900 	EXP 	target_text: height = np.float64(0.05)
+72.8900 	EXP 	target_text: height = np.float64(0.05)
+72.8900 	EXP 	target_text: height = np.float64(0.05)
+72.8900 	EXP 	target_text: text = 'brick'
+72.8900 	EXP 	target_text: autoDraw = True
+73.4075 	EXP 	Device response: <KeyPress from None: t=73.40436154200142, value=m, duration=None>
+73.4082 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'prime': 'fire', 'target': 'blanket', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+73.4123 	DATA 	Keypress: m
+73.4180 	EXP 	target_text: autoDraw = False
+73.4180 	EXP 	prime_text: text = ' prime'
+73.4180 	EXP 	prime_text: autoDraw = True
+73.5583 	EXP 	Device response: <KeyPress from None: t=73.40436154200142, value=m, duration=0.14840108300268184>
+73.5660 	EXP 	prime_text: autoDraw = False
+73.5660 	EXP 	prime_text: autoDraw = False
+73.5660 	EXP 	gap1: autoDraw = True
+73.6171 	INFO 	Keyboard events cleared
+73.6170 	EXP 	gap1: autoDraw = False
+73.6170 	EXP 	gap1: autoDraw = False
+73.6170 	EXP 	target_text: height = np.float64(0.05)
+73.6170 	EXP 	target_text: height = np.float64(0.05)
+73.6170 	EXP 	target_text: height = np.float64(0.05)
+73.6170 	EXP 	target_text: text = 'blanket'
+73.6170 	EXP 	target_text: autoDraw = True
+74.4811 	EXP 	Device response: <KeyPress from None: t=74.47336120800173, value=m, duration=None>
+74.4817 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'prime': 'shirt', 'target': 'riverl', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+74.4855 	DATA 	Keypress: m
+74.4902 	EXP 	target_text: autoDraw = False
+74.4902 	EXP 	prime_text: text = ' prime'
+74.4902 	EXP 	prime_text: autoDraw = True
+74.5980 	EXP 	Device response: <KeyPress from None: t=74.47336120800173, value=m, duration=0.11642137500166427>
+74.6296 	EXP 	prime_text: autoDraw = False
+74.6296 	EXP 	prime_text: autoDraw = False
+74.6296 	EXP 	gap1: autoDraw = True
+74.6890 	EXP 	gap1: autoDraw = False
+74.6890 	EXP 	gap1: autoDraw = False
+74.6890 	EXP 	target_text: height = np.float64(0.05)
+74.6890 	EXP 	target_text: height = np.float64(0.05)
+74.6890 	EXP 	target_text: height = np.float64(0.05)
+74.6890 	EXP 	target_text: text = 'riverl'
+74.7062 	INFO 	Keyboard events cleared
+74.7060 	EXP 	target_text: autoDraw = True
+75.5813 	EXP 	Device response: <KeyPress from None: t=75.57433070800471, value=z, duration=None>
+75.5818 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'prime': 'bread', 'target': 'music', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+75.5861 	DATA 	Keypress: z
+75.5922 	EXP 	target_text: autoDraw = False
+75.5922 	EXP 	prime_text: text = ' prime'
+75.5922 	EXP 	prime_text: autoDraw = True
+75.6977 	EXP 	Device response: <KeyPress from None: t=75.57433070800471, value=z, duration=0.12030383399542188>
+75.7392 	EXP 	prime_text: autoDraw = False
+75.7392 	EXP 	prime_text: autoDraw = False
+75.7392 	EXP 	gap1: autoDraw = True
+75.7839 	INFO 	Keyboard events cleared
+75.7837 	EXP 	gap1: autoDraw = False
+75.7837 	EXP 	gap1: autoDraw = False
+75.7837 	EXP 	target_text: height = np.float64(0.05)
+75.7837 	EXP 	target_text: height = np.float64(0.05)
+75.7837 	EXP 	target_text: height = np.float64(0.05)
+75.7837 	EXP 	target_text: text = 'music'
+75.7837 	EXP 	target_text: autoDraw = True
+76.3977 	EXP 	Device response: <KeyPress from None: t=76.39136054200208, value=m, duration=None>
+76.3983 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'prime': 'pen', 'target': 'paper', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+76.4028 	DATA 	Keypress: m
+76.4085 	EXP 	target_text: autoDraw = False
+76.4085 	EXP 	prime_text: text = ' prime'
+76.4085 	EXP 	prime_text: autoDraw = True
+76.5145 	EXP 	Device response: <KeyPress from None: t=76.39136054200208, value=m, duration=0.12028479100263212>
+76.5559 	EXP 	prime_text: autoDraw = False
+76.5559 	EXP 	prime_text: autoDraw = False
+76.5559 	EXP 	gap1: autoDraw = True
+76.6010 	INFO 	Keyboard events cleared
+76.6008 	EXP 	gap1: autoDraw = False
+76.6008 	EXP 	gap1: autoDraw = False
+76.6008 	EXP 	target_text: height = np.float64(0.05)
+76.6008 	EXP 	target_text: height = np.float64(0.05)
+76.6008 	EXP 	target_text: height = np.float64(0.05)
+76.6008 	EXP 	target_text: text = 'paper'
+76.6008 	EXP 	target_text: autoDraw = True
+77.6074 	EXP 	Device response: <KeyPress from None: t=77.60328049999953, value=m, duration=None>
+77.6080 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'prime': 'mother', 'target': 'childo', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+77.6124 	DATA 	Keypress: m
+77.6181 	EXP 	target_text: autoDraw = False
+77.6181 	EXP 	prime_text: text = ' prime'
+77.6181 	EXP 	prime_text: autoDraw = True
+77.7632 	EXP 	prime_text: autoDraw = False
+77.7632 	EXP 	prime_text: autoDraw = False
+77.7632 	EXP 	gap1: autoDraw = True
+77.7728 	EXP 	Device response: <KeyPress from None: t=77.60328049999953, value=m, duration=0.16031187499902444>
+77.8179 	INFO 	Keyboard events cleared
+77.8178 	EXP 	gap1: autoDraw = False
+77.8178 	EXP 	gap1: autoDraw = False
+77.8178 	EXP 	target_text: height = np.float64(0.05)
+77.8178 	EXP 	target_text: height = np.float64(0.05)
+77.8178 	EXP 	target_text: height = np.float64(0.05)
+77.8178 	EXP 	target_text: text = 'childo'
+77.8178 	EXP 	target_text: autoDraw = True
+78.3805 	EXP 	Device response: <KeyPress from None: t=78.37729345800471, value=z, duration=None>
+78.3811 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'prime': 'flower', 'target': 'bottlev', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+78.3852 	DATA 	Keypress: z
+78.3915 	EXP 	target_text: autoDraw = False
+78.3915 	EXP 	prime_text: text = ' prime'
+78.3915 	EXP 	prime_text: autoDraw = True
+78.5076 	EXP 	Device response: <KeyPress from None: t=78.37729345800471, value=z, duration=0.12435149999510031>
+78.5396 	EXP 	prime_text: autoDraw = False
+78.5396 	EXP 	prime_text: autoDraw = False
+78.5396 	EXP 	gap1: autoDraw = True
+78.5830 	INFO 	Keyboard events cleared
+78.5828 	EXP 	gap1: autoDraw = False
+78.5828 	EXP 	gap1: autoDraw = False
+78.5828 	EXP 	target_text: height = np.float64(0.05)
+78.5828 	EXP 	target_text: height = np.float64(0.05)
+78.5828 	EXP 	target_text: height = np.float64(0.05)
+78.5828 	EXP 	target_text: text = 'bottlev'
+78.5828 	EXP 	target_text: autoDraw = True
+79.3148 	EXP 	Device response: <KeyPress from None: t=79.30832020800153, value=z, duration=None>
+79.3154 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'prime': 'road', 'target': 'street', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+79.3198 	DATA 	Keypress: z
+79.3253 	EXP 	target_text: autoDraw = False
+79.3253 	EXP 	prime_text: text = ' prime'
+79.3253 	EXP 	prime_text: autoDraw = True
+79.4241 	EXP 	Device response: <KeyPress from None: t=79.30832020800153, value=z, duration=0.11228695899626473>
+79.4730 	EXP 	prime_text: autoDraw = False
+79.4730 	EXP 	prime_text: autoDraw = False
+79.4730 	EXP 	gap1: autoDraw = True
+79.5174 	INFO 	Keyboard events cleared
+79.5173 	EXP 	gap1: autoDraw = False
+79.5173 	EXP 	gap1: autoDraw = False
+79.5173 	EXP 	target_text: height = np.float64(0.05)
+79.5173 	EXP 	target_text: height = np.float64(0.05)
+79.5173 	EXP 	target_text: height = np.float64(0.05)
+79.5173 	EXP 	target_text: text = 'street'
+79.5173 	EXP 	target_text: autoDraw = True
+80.2144 	EXP 	Device response: <KeyPress from None: t=80.20626162500412, value=m, duration=None>
+80.2150 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'prime': 'flower', 'target': 'bottle', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+80.2193 	DATA 	Keypress: m
+80.2252 	EXP 	target_text: autoDraw = False
+80.2252 	EXP 	prime_text: text = ' prime'
+80.2252 	EXP 	prime_text: autoDraw = True
+80.3481 	EXP 	Device response: <KeyPress from None: t=80.20626162500412, value=m, duration=0.13631887499650475>
+80.3896 	EXP 	prime_text: autoDraw = False
+80.3896 	EXP 	gap1: autoDraw = True
+80.4344 	INFO 	Keyboard events cleared
+80.4343 	EXP 	gap1: autoDraw = False
+80.4343 	EXP 	target_text: height = np.float64(0.05)
+80.4343 	EXP 	target_text: height = np.float64(0.05)
+80.4343 	EXP 	target_text: height = np.float64(0.05)
+80.4343 	EXP 	target_text: text = 'bottle'
+80.4343 	EXP 	target_text: autoDraw = True
+81.9143 	EXP 	Device response: <KeyPress from None: t=81.90724824999779, value=m, duration=None>
+81.9148 	EXP 	New trial (rep=0, index=60): <Trial 60 (60 in rep 0) data={'prime': 'car', 'target': 'enginek', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 60, 'thisTrialN': 60, 'thisRepN': 0}>
+81.9194 	DATA 	Keypress: m
+81.9253 	EXP 	target_text: autoDraw = False
+81.9253 	EXP 	prime_text: text = ' prime'
+81.9253 	EXP 	prime_text: autoDraw = True
+82.0308 	EXP 	Device response: <KeyPress from None: t=81.90724824999779, value=m, duration=0.11624495800060686>
+82.0727 	EXP 	prime_text: autoDraw = False
+82.0727 	EXP 	prime_text: autoDraw = False
+82.0727 	EXP 	gap1: autoDraw = True
+82.1175 	INFO 	Keyboard events cleared
+82.1174 	EXP 	gap1: autoDraw = False
+82.1174 	EXP 	gap1: autoDraw = False
+82.1174 	EXP 	target_text: height = np.float64(0.05)
+82.1174 	EXP 	target_text: height = np.float64(0.05)
+82.1174 	EXP 	target_text: height = np.float64(0.05)
+82.1174 	EXP 	target_text: text = 'enginek'
+82.1174 	EXP 	target_text: autoDraw = True
+82.6981 	EXP 	Device response: <KeyPress from None: t=82.6961665830022, value=z, duration=None>
+82.6987 	EXP 	New trial (rep=0, index=61): <Trial 61 (61 in rep 0) data={'prime': 'shoe', 'target': 'sockp', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 61, 'thisTrialN': 61, 'thisRepN': 0}>
+82.7029 	DATA 	Keypress: z
+82.7088 	EXP 	target_text: autoDraw = False
+82.7088 	EXP 	prime_text: text = ' prime'
+82.7088 	EXP 	prime_text: autoDraw = True
+82.8315 	EXP 	Device response: <KeyPress from None: t=82.6961665830022, value=z, duration=0.13233991699962644>
+82.8563 	EXP 	prime_text: autoDraw = False
+82.8563 	EXP 	prime_text: autoDraw = False
+82.8563 	EXP 	gap1: autoDraw = True
+82.8998 	INFO 	Keyboard events cleared
+82.8997 	EXP 	gap1: autoDraw = False
+82.8997 	EXP 	gap1: autoDraw = False
+82.8997 	EXP 	target_text: height = np.float64(0.05)
+82.8997 	EXP 	target_text: height = np.float64(0.05)
+82.8997 	EXP 	target_text: height = np.float64(0.05)
+82.8997 	EXP 	target_text: text = 'sockp'
+82.8997 	EXP 	target_text: autoDraw = True
+83.7576 	EXP 	Device response: <KeyPress from None: t=83.7501949580037, value=z, duration=None>
+83.7580 	EXP 	New trial (rep=0, index=62): <Trial 62 (62 in rep 0) data={'prime': 'music', 'target': 'plate', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 62, 'thisTrialN': 62, 'thisRepN': 0}>
+83.7607 	DATA 	Keypress: z
+83.7661 	EXP 	target_text: autoDraw = False
+83.7661 	EXP 	prime_text: text = ' prime'
+83.7661 	EXP 	prime_text: autoDraw = True
+83.9130 	EXP 	prime_text: autoDraw = False
+83.9130 	EXP 	prime_text: autoDraw = False
+83.9130 	EXP 	gap1: autoDraw = True
+83.9306 	EXP 	Device response: <KeyPress from None: t=83.7501949580037, value=z, duration=0.17626695899525657>
+83.9668 	INFO 	Keyboard events cleared
+83.9666 	EXP 	gap1: autoDraw = False
+83.9666 	EXP 	gap1: autoDraw = False
+83.9666 	EXP 	target_text: height = np.float64(0.05)
+83.9666 	EXP 	target_text: height = np.float64(0.05)
+83.9666 	EXP 	target_text: height = np.float64(0.05)
+83.9666 	EXP 	target_text: text = 'plate'
+83.9666 	EXP 	target_text: autoDraw = True
+84.6084 	EXP 	Device response: <KeyPress from None: t=84.59823150000011, value=m, duration=None>
+84.6091 	EXP 	New trial (rep=0, index=63): <Trial 63 (63 in rep 0) data={'prime': 'music', 'target': 'song', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 63, 'thisTrialN': 63, 'thisRepN': 0}>
+84.6133 	DATA 	Keypress: m
+84.6190 	EXP 	target_text: autoDraw = False
+84.6190 	EXP 	prime_text: text = ' prime'
+84.6190 	EXP 	prime_text: autoDraw = True
+84.7631 	EXP 	prime_text: autoDraw = False
+84.7631 	EXP 	prime_text: autoDraw = False
+84.7631 	EXP 	gap1: autoDraw = True
+84.8011 	EXP 	Device response: <KeyPress from None: t=84.59823150000011, value=m, duration=0.20024366700090468>
+84.8086 	INFO 	Keyboard events cleared
+84.8084 	EXP 	gap1: autoDraw = False
+84.8084 	EXP 	gap1: autoDraw = False
+84.8084 	EXP 	target_text: height = np.float64(0.05)
+84.8084 	EXP 	target_text: height = np.float64(0.05)
+84.8084 	EXP 	target_text: height = np.float64(0.05)
+84.8084 	EXP 	target_text: text = 'song'
+84.8084 	EXP 	target_text: autoDraw = True
+86.1414 	EXP 	Device response: <KeyPress from None: t=86.13308579200384, value=m, duration=None>
+86.1419 	EXP 	New trial (rep=0, index=64): <Trial 64 (64 in rep 0) data={'prime': 'book', 'target': 'hammer', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 64, 'thisTrialN': 64, 'thisRepN': 0}>
+86.1462 	DATA 	Keypress: m
+86.1519 	EXP 	target_text: autoDraw = False
+86.1519 	EXP 	prime_text: text = ' prime'
+86.1519 	EXP 	prime_text: autoDraw = True
+86.2480 	EXP 	Device response: <KeyPress from None: t=86.13308579200384, value=m, duration=0.10836912499507889>
+86.2968 	EXP 	prime_text: autoDraw = False
+86.2968 	EXP 	prime_text: autoDraw = False
+86.2968 	EXP 	gap1: autoDraw = True
+86.3411 	INFO 	Keyboard events cleared
+86.3409 	EXP 	gap1: autoDraw = False
+86.3409 	EXP 	gap1: autoDraw = False
+86.3409 	EXP 	target_text: height = np.float64(0.05)
+86.3409 	EXP 	target_text: height = np.float64(0.05)
+86.3409 	EXP 	target_text: height = np.float64(0.05)
+86.3409 	EXP 	target_text: text = 'hammer'
+86.3409 	EXP 	target_text: autoDraw = True
+87.1747 	EXP 	Device response: <KeyPress from None: t=87.16908745800174, value=m, duration=None>
+87.1753 	EXP 	New trial (rep=0, index=65): <Trial 65 (65 in rep 0) data={'prime': 'sun', 'target': 'light', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 65, 'thisTrialN': 65, 'thisRepN': 0}>
+87.1796 	DATA 	Keypress: m
+87.1854 	EXP 	target_text: autoDraw = False
+87.1854 	EXP 	prime_text: text = ' prime'
+87.1854 	EXP 	prime_text: autoDraw = True
+87.3293 	EXP 	prime_text: autoDraw = False
+87.3293 	EXP 	prime_text: autoDraw = False
+87.3293 	EXP 	gap1: autoDraw = True
+87.3479 	EXP 	Device response: <KeyPress from None: t=87.16908745800174, value=m, duration=0.1723523339969688>
+87.3735 	INFO 	Keyboard events cleared
+87.3733 	EXP 	gap1: autoDraw = False
+87.3733 	EXP 	gap1: autoDraw = False
+87.3733 	EXP 	target_text: height = np.float64(0.05)
+87.3733 	EXP 	target_text: height = np.float64(0.05)
+87.3733 	EXP 	target_text: height = np.float64(0.05)
+87.3733 	EXP 	target_text: text = 'light'
+87.3733 	EXP 	target_text: autoDraw = True
+87.9907 	EXP 	Device response: <KeyPress from None: t=87.98607779200393, value=m, duration=None>
+87.9911 	EXP 	New trial (rep=0, index=66): <Trial 66 (66 in rep 0) data={'prime': 'phone', 'target': 'forest', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 66, 'thisTrialN': 66, 'thisRepN': 0}>
+87.9954 	DATA 	Keypress: m
+88.0010 	EXP 	target_text: autoDraw = False
+88.0010 	EXP 	prime_text: text = ' prime'
+88.0010 	EXP 	prime_text: autoDraw = True
+88.0816 	EXP 	Device response: <KeyPress from None: t=87.98607779200393, value=m, duration=0.08828795799490763>
+88.1459 	EXP 	prime_text: autoDraw = False
+88.1459 	EXP 	prime_text: autoDraw = False
+88.1459 	EXP 	gap1: autoDraw = True
+88.2059 	INFO 	Keyboard events cleared
+88.2057 	EXP 	gap1: autoDraw = False
+88.2057 	EXP 	gap1: autoDraw = False
+88.2057 	EXP 	target_text: height = np.float64(0.05)
+88.2057 	EXP 	target_text: height = np.float64(0.05)
+88.2057 	EXP 	target_text: height = np.float64(0.05)
+88.2057 	EXP 	target_text: text = 'forest'
+88.2057 	EXP 	target_text: autoDraw = True
+89.1082 	EXP 	Device response: <KeyPress from None: t=89.10004516700428, value=m, duration=None>
+89.1087 	EXP 	New trial (rep=0, index=67): <Trial 67 (67 in rep 0) data={'prime': 'river', 'target': 'chairy', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 67, 'thisTrialN': 67, 'thisRepN': 0}>
+89.1129 	DATA 	Keypress: m
+89.1187 	EXP 	target_text: autoDraw = False
+89.1187 	EXP 	prime_text: text = ' prime'
+89.1187 	EXP 	prime_text: autoDraw = True
+89.2083 	EXP 	Device response: <KeyPress from None: t=89.10004516700428, value=m, duration=0.10027999999874737>
+89.2626 	EXP 	prime_text: autoDraw = False
+89.2626 	EXP 	prime_text: autoDraw = False
+89.2626 	EXP 	gap1: autoDraw = True
+89.3077 	INFO 	Keyboard events cleared
+89.3076 	EXP 	gap1: autoDraw = False
+89.3076 	EXP 	gap1: autoDraw = False
+89.3076 	EXP 	target_text: height = np.float64(0.05)
+89.3076 	EXP 	target_text: height = np.float64(0.05)
+89.3076 	EXP 	target_text: height = np.float64(0.05)
+89.3076 	EXP 	target_text: text = 'chairy'
+89.3076 	EXP 	target_text: autoDraw = True
+90.2982 	EXP 	Device response: <KeyPress from None: t=90.29600275000121, value=z, duration=None>
+90.2987 	EXP 	New trial (rep=0, index=68): <Trial 68 (68 in rep 0) data={'prime': 'music', 'target': 'platek', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 68, 'thisTrialN': 68, 'thisRepN': 0}>
+90.3030 	DATA 	Keypress: z
+90.3089 	EXP 	target_text: autoDraw = False
+90.3089 	EXP 	prime_text: text = ' prime'
+90.3089 	EXP 	prime_text: autoDraw = True
+90.4246 	EXP 	Device response: <KeyPress from None: t=90.29600275000121, value=z, duration=0.12528316699899733>
+90.4554 	EXP 	prime_text: autoDraw = False
+90.4554 	EXP 	prime_text: autoDraw = False
+90.4554 	EXP 	gap1: autoDraw = True
+90.5004 	INFO 	Keyboard events cleared
+90.5002 	EXP 	gap1: autoDraw = False
+90.5002 	EXP 	gap1: autoDraw = False
+90.5002 	EXP 	target_text: height = np.float64(0.05)
+90.5002 	EXP 	target_text: height = np.float64(0.05)
+90.5002 	EXP 	target_text: height = np.float64(0.05)
+90.5002 	EXP 	target_text: text = 'platek'
+90.5002 	EXP 	target_text: autoDraw = True
+91.0911 	EXP 	Device response: <KeyPress from None: t=91.08899725000083, value=z, duration=None>
+91.0916 	EXP 	New trial (rep=0, index=69): <Trial 69 (69 in rep 0) data={'prime': 'doctor', 'target': 'table', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 69, 'thisTrialN': 69, 'thisRepN': 0}>
+91.0958 	DATA 	Keypress: z
+91.1014 	EXP 	target_text: autoDraw = False
+91.1014 	EXP 	prime_text: text = ' prime'
+91.1014 	EXP 	prime_text: autoDraw = True
+91.2460 	EXP 	prime_text: autoDraw = False
+91.2460 	EXP 	prime_text: autoDraw = False
+91.2460 	EXP 	gap1: autoDraw = True
+91.2744 	EXP 	Device response: <KeyPress from None: t=91.08899725000083, value=z, duration=0.18035100000270177>
+91.2922 	INFO 	Keyboard events cleared
+91.2920 	EXP 	gap1: autoDraw = False
+91.2920 	EXP 	gap1: autoDraw = False
+91.2920 	EXP 	target_text: height = np.float64(0.05)
+91.2920 	EXP 	target_text: height = np.float64(0.05)
+91.2920 	EXP 	target_text: height = np.float64(0.05)
+91.2920 	EXP 	target_text: text = 'table'
+91.2920 	EXP 	target_text: autoDraw = True
+92.4148 	EXP 	Device response: <KeyPress from None: t=92.40997079200315, value=m, duration=None>
+92.4154 	EXP 	New trial (rep=0, index=70): <Trial 70 (70 in rep 0) data={'prime': 'pen', 'target': 'shoep', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 70, 'thisTrialN': 70, 'thisRepN': 0}>
+92.4197 	DATA 	Keypress: m
+92.4253 	EXP 	target_text: autoDraw = False
+92.4253 	EXP 	prime_text: text = ' prime'
+92.4253 	EXP 	prime_text: autoDraw = True
+92.5410 	EXP 	Device response: <KeyPress from None: t=92.40997079200315, value=m, duration=0.1247852079977747>
+92.5728 	EXP 	prime_text: autoDraw = False
+92.5728 	EXP 	prime_text: autoDraw = False
+92.5728 	EXP 	gap1: autoDraw = True
+92.6178 	INFO 	Keyboard events cleared
+92.6176 	EXP 	gap1: autoDraw = False
+92.6176 	EXP 	gap1: autoDraw = False
+92.6176 	EXP 	target_text: height = np.float64(0.05)
+92.6176 	EXP 	target_text: height = np.float64(0.05)
+92.6176 	EXP 	target_text: height = np.float64(0.05)
+92.6176 	EXP 	target_text: text = 'shoep'
+92.6176 	EXP 	target_text: autoDraw = True
+93.2411 	EXP 	Device response: <KeyPress from None: t=93.2391555830036, value=z, duration=None>
+93.2417 	EXP 	New trial (rep=0, index=71): <Trial 71 (71 in rep 0) data={'prime': 'river', 'target': 'water', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 71, 'thisTrialN': 71, 'thisRepN': 0}>
+93.2461 	DATA 	Keypress: z
+93.2519 	EXP 	target_text: autoDraw = False
+93.2519 	EXP 	prime_text: text = ' prime'
+93.2519 	EXP 	prime_text: autoDraw = True
+93.3916 	EXP 	Device response: <KeyPress from None: t=93.2391555830036, value=z, duration=0.14405508399795508>
+93.3995 	EXP 	prime_text: autoDraw = False
+93.3995 	EXP 	prime_text: autoDraw = False
+93.3995 	EXP 	gap1: autoDraw = True
+93.4489 	INFO 	Keyboard events cleared
+93.4488 	EXP 	gap1: autoDraw = False
+93.4488 	EXP 	gap1: autoDraw = False
+93.4488 	EXP 	target_text: height = np.float64(0.05)
+93.4488 	EXP 	target_text: height = np.float64(0.05)
+93.4488 	EXP 	target_text: height = np.float64(0.05)
+93.4488 	EXP 	target_text: text = 'water'
+93.4488 	EXP 	target_text: autoDraw = True
+94.3656 	EXP 	Device response: <KeyPress from None: t=94.35898825000186, value=m, duration=None>
+94.3662 	EXP 	New trial (rep=0, index=72): <Trial 72 (72 in rep 0) data={'prime': 'car', 'target': 'windoww', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 72, 'thisTrialN': 72, 'thisRepN': 0}>
+94.3693 	DATA 	Keypress: m
+94.3744 	EXP 	target_text: autoDraw = False
+94.3744 	EXP 	prime_text: text = ' prime'
+94.3744 	EXP 	prime_text: autoDraw = True
+94.5151 	EXP 	Device response: <KeyPress from None: t=94.35898825000186, value=m, duration=0.15220929199858801>
+94.5229 	EXP 	prime_text: autoDraw = False
+94.5229 	EXP 	prime_text: autoDraw = False
+94.5229 	EXP 	gap1: autoDraw = True
+94.5687 	INFO 	Keyboard events cleared
+94.5686 	EXP 	gap1: autoDraw = False
+94.5686 	EXP 	gap1: autoDraw = False
+94.5686 	EXP 	target_text: height = np.float64(0.05)
+94.5686 	EXP 	target_text: height = np.float64(0.05)
+94.5686 	EXP 	target_text: height = np.float64(0.05)
+94.5686 	EXP 	target_text: text = 'windoww'
+94.5686 	EXP 	target_text: autoDraw = True
+95.2311 	EXP 	Device response: <KeyPress from None: t=95.22694849999971, value=z, duration=None>
+95.2318 	EXP 	New trial (rep=0, index=73): <Trial 73 (73 in rep 0) data={'prime': 'pen', 'target': 'paperz', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 73, 'thisTrialN': 73, 'thisRepN': 0}>
+95.2361 	DATA 	Keypress: z
+95.2417 	EXP 	target_text: autoDraw = False
+95.2417 	EXP 	prime_text: text = ' prime'
+95.2417 	EXP 	prime_text: autoDraw = True
+95.3892 	EXP 	prime_text: autoDraw = False
+95.3892 	EXP 	prime_text: autoDraw = False
+95.3892 	EXP 	gap1: autoDraw = True
+95.4346 	INFO 	Keyboard events cleared
+95.4344 	EXP 	gap1: autoDraw = False
+95.4344 	EXP 	gap1: autoDraw = False
+95.4344 	EXP 	target_text: height = np.float64(0.05)
+95.4344 	EXP 	target_text: height = np.float64(0.05)
+95.4344 	EXP 	target_text: height = np.float64(0.05)
+95.4344 	EXP 	target_text: text = 'paperz'
+95.4344 	EXP 	target_text: autoDraw = True
+96.5749 	EXP 	Device response: <KeyPress from None: t=96.56668275000266, value=z, duration=None>
+96.5756 	EXP 	New trial (rep=0, index=74): <Trial 74 (74 in rep 0) data={'prime': 'music', 'target': 'songy', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 74, 'thisTrialN': 74, 'thisRepN': 0}>
+96.5800 	DATA 	Keypress: z
+96.5857 	EXP 	target_text: autoDraw = False
+96.5857 	EXP 	prime_text: text = ' prime'
+96.5857 	EXP 	prime_text: autoDraw = True
+96.7250 	EXP 	Device response: <KeyPress from None: t=95.22694849999971, value=z, duration=1.4872210829998949>
+96.7327 	EXP 	prime_text: autoDraw = False
+96.7327 	EXP 	prime_text: autoDraw = False
+96.7327 	EXP 	gap1: autoDraw = True
+96.7834 	INFO 	Keyboard events cleared
+96.7833 	EXP 	gap1: autoDraw = False
+96.7833 	EXP 	gap1: autoDraw = False
+96.7833 	EXP 	target_text: height = np.float64(0.05)
+96.7833 	EXP 	target_text: height = np.float64(0.05)
+96.7833 	EXP 	target_text: height = np.float64(0.05)
+96.7833 	EXP 	target_text: text = 'songy'
+96.7833 	EXP 	target_text: autoDraw = True
+97.3248 	EXP 	Device response: <KeyPress from None: t=97.3138860830004, value=z, duration=None>
+97.3253 	EXP 	New trial (rep=0, index=75): <Trial 75 (75 in rep 0) data={'prime': 'ball', 'target': 'game', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 75, 'thisTrialN': 75, 'thisRepN': 0}>
+97.3296 	DATA 	Keypress: z
+97.3352 	EXP 	target_text: autoDraw = False
+97.3352 	EXP 	prime_text: text = ' prime'
+97.3352 	EXP 	prime_text: autoDraw = True
+97.4479 	EXP 	Device response: <KeyPress from None: t=96.56668275000266, value=z, duration=0.8754952079980285>
+97.4788 	EXP 	prime_text: autoDraw = False
+97.4788 	EXP 	prime_text: autoDraw = False
+97.4788 	EXP 	gap1: autoDraw = True
+97.5234 	INFO 	Keyboard events cleared
+97.5232 	EXP 	gap1: autoDraw = False
+97.5232 	EXP 	gap1: autoDraw = False
+97.5232 	EXP 	target_text: height = np.float64(0.05)
+97.5232 	EXP 	target_text: height = np.float64(0.05)
+97.5232 	EXP 	target_text: height = np.float64(0.05)
+97.5232 	EXP 	target_text: text = 'game'
+97.5232 	EXP 	target_text: autoDraw = True
+98.2144 	EXP 	Device response: <KeyPress from None: t=98.20940845800214, value=m, duration=None>
+98.2150 	EXP 	New trial (rep=0, index=76): <Trial 76 (76 in rep 0) data={'prime': 'car', 'target': 'window', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 76, 'thisTrialN': 76, 'thisRepN': 0}>
+98.2194 	DATA 	Keypress: m
+98.2251 	EXP 	target_text: autoDraw = False
+98.2251 	EXP 	prime_text: text = ' prime'
+98.2251 	EXP 	prime_text: autoDraw = True
+98.3478 	EXP 	Device response: <KeyPress from None: t=98.20940845800214, value=m, duration=0.13173370900040027>
+98.3727 	EXP 	prime_text: autoDraw = False
+98.3727 	EXP 	prime_text: autoDraw = False
+98.3727 	EXP 	gap1: autoDraw = True
+98.4170 	INFO 	Keyboard events cleared
+98.4169 	EXP 	gap1: autoDraw = False
+98.4169 	EXP 	gap1: autoDraw = False
+98.4169 	EXP 	target_text: height = np.float64(0.05)
+98.4169 	EXP 	target_text: height = np.float64(0.05)
+98.4169 	EXP 	target_text: height = np.float64(0.05)
+98.4169 	EXP 	target_text: text = 'window'
+98.4169 	EXP 	target_text: autoDraw = True
+99.0971 	EXP 	Device response: <KeyPress from None: t=99.09285000000091, value=m, duration=None>
+99.0976 	EXP 	New trial (rep=0, index=77): <Trial 77 (77 in rep 0) data={'prime': 'doctor', 'target': 'nursep', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 77, 'thisTrialN': 77, 'thisRepN': 0}>
+99.1019 	DATA 	Keypress: m
+99.1078 	EXP 	target_text: autoDraw = False
+99.1078 	EXP 	prime_text: text = ' prime'
+99.1078 	EXP 	prime_text: autoDraw = True
+99.2470 	EXP 	Device response: <KeyPress from None: t=99.09285000000091, value=m, duration=0.1483024170011049>
+99.2554 	EXP 	prime_text: autoDraw = False
+99.2554 	EXP 	prime_text: autoDraw = False
+99.2554 	EXP 	gap1: autoDraw = True
+99.3010 	INFO 	Keyboard events cleared
+99.3009 	EXP 	gap1: autoDraw = False
+99.3009 	EXP 	gap1: autoDraw = False
+99.3009 	EXP 	target_text: height = np.float64(0.05)
+99.3009 	EXP 	target_text: height = np.float64(0.05)
+99.3009 	EXP 	target_text: height = np.float64(0.05)
+99.3009 	EXP 	target_text: text = 'nursep'
+99.3009 	EXP 	target_text: autoDraw = True
+99.9913 	EXP 	Device response: <KeyPress from None: t=99.98777466700267, value=z, duration=None>
+99.9919 	EXP 	New trial (rep=0, index=78): <Trial 78 (78 in rep 0) data={'prime': 'salt', 'target': 'camera', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 78, 'thisTrialN': 78, 'thisRepN': 0}>
+99.9962 	DATA 	Keypress: z
+100.0020 	EXP 	target_text: autoDraw = False
+100.0020 	EXP 	prime_text: text = ' prime'
+100.0020 	EXP 	prime_text: autoDraw = True
+100.1466 	EXP 	prime_text: autoDraw = False
+100.1466 	EXP 	prime_text: autoDraw = False
+100.1466 	EXP 	gap1: autoDraw = True
+100.1579 	EXP 	Device response: <KeyPress from None: t=97.3138860830004, value=z, duration=2.8346089589977055>
+100.2002 	INFO 	Keyboard events cleared
+100.2000 	EXP 	gap1: autoDraw = False
+100.2000 	EXP 	gap1: autoDraw = False
+100.2000 	EXP 	target_text: height = np.float64(0.05)
+100.2000 	EXP 	target_text: height = np.float64(0.05)
+100.2000 	EXP 	target_text: height = np.float64(0.05)
+100.2000 	EXP 	target_text: text = 'camera'
+100.2000 	EXP 	target_text: autoDraw = True
+100.8741 	EXP 	Device response: <KeyPress from None: t=100.86576920800144, value=m, duration=None>
+100.8748 	EXP 	New trial (rep=0, index=79): <Trial 79 (79 in rep 0) data={'prime': 'bird', 'target': 'wing', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 79, 'thisTrialN': 79, 'thisRepN': 0}>
+100.8790 	DATA 	Keypress: m
+100.8847 	EXP 	target_text: autoDraw = False
+100.8847 	EXP 	prime_text: text = ' prime'
+100.8847 	EXP 	prime_text: autoDraw = True
+101.0290 	EXP 	prime_text: autoDraw = False
+101.0290 	EXP 	prime_text: autoDraw = False
+101.0290 	EXP 	gap1: autoDraw = True
+101.0722 	INFO 	Keyboard events cleared
+101.0720 	EXP 	gap1: autoDraw = False
+101.0720 	EXP 	gap1: autoDraw = False
+101.0720 	EXP 	target_text: height = np.float64(0.05)
+101.0720 	EXP 	target_text: height = np.float64(0.05)
+101.0720 	EXP 	target_text: height = np.float64(0.05)
+101.0720 	EXP 	target_text: text = 'wing'
+101.0720 	EXP 	target_text: autoDraw = True
+101.6412 	EXP 	Device response: <KeyPress from None: t=101.6368209170032, value=m, duration=None>
+101.6417 	EXP 	New trial (rep=0, index=80): <Trial 80 (80 in rep 0) data={'prime': 'mother', 'target': 'bottle', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 80, 'thisTrialN': 80, 'thisRepN': 0}>
+101.6444 	DATA 	Keypress: m
+101.6486 	EXP 	target_text: autoDraw = False
+101.6486 	EXP 	prime_text: text = ' prime'
+101.6486 	EXP 	prime_text: autoDraw = True
+101.7961 	EXP 	prime_text: autoDraw = False
+101.7961 	EXP 	prime_text: autoDraw = False
+101.7961 	EXP 	gap1: autoDraw = True
+101.8356 	EXP 	Device response: <KeyPress from None: t=100.86576920800144, value=m, duration=0.9673626250005327>
+101.8420 	INFO 	Keyboard events cleared
+101.8418 	EXP 	gap1: autoDraw = False
+101.8418 	EXP 	gap1: autoDraw = False
+101.8418 	EXP 	target_text: height = np.float64(0.05)
+101.8418 	EXP 	target_text: height = np.float64(0.05)
+101.8418 	EXP 	target_text: height = np.float64(0.05)
+101.8418 	EXP 	target_text: text = 'bottle'
+101.8418 	EXP 	target_text: autoDraw = True
+102.4641 	EXP 	Device response: <KeyPress from None: t=102.45875583300221, value=z, duration=None>
+102.4645 	EXP 	New trial (rep=0, index=81): <Trial 81 (81 in rep 0) data={'prime': 'shirt', 'target': 'cloth', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 81, 'thisTrialN': 81, 'thisRepN': 0}>
+102.4688 	DATA 	Keypress: z
+102.4752 	EXP 	target_text: autoDraw = False
+102.4752 	EXP 	prime_text: text = ' prime'
+102.4752 	EXP 	prime_text: autoDraw = True
+102.6225 	EXP 	prime_text: autoDraw = False
+102.6225 	EXP 	prime_text: autoDraw = False
+102.6225 	EXP 	gap1: autoDraw = True
+102.6413 	EXP 	Device response: <KeyPress from None: t=99.98777466700267, value=z, duration=2.643353749997914>
+102.6664 	INFO 	Keyboard events cleared
+102.6662 	EXP 	gap1: autoDraw = False
+102.6662 	EXP 	gap1: autoDraw = False
+102.6662 	EXP 	target_text: height = np.float64(0.05)
+102.6662 	EXP 	target_text: height = np.float64(0.05)
+102.6662 	EXP 	target_text: height = np.float64(0.05)
+102.6662 	EXP 	target_text: text = 'cloth'
+102.6662 	EXP 	target_text: autoDraw = True
+103.5241 	EXP 	Device response: <KeyPress from None: t=103.52173208299791, value=m, duration=None>
+103.5248 	EXP 	New trial (rep=0, index=82): <Trial 82 (82 in rep 0) data={'prime': 'tree', 'target': 'speaker', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 82, 'thisTrialN': 82, 'thisRepN': 0}>
+103.5285 	DATA 	Keypress: m
+103.5336 	EXP 	target_text: autoDraw = False
+103.5336 	EXP 	prime_text: text = ' prime'
+103.5336 	EXP 	prime_text: autoDraw = True
+103.6411 	EXP 	Device response: <KeyPress from None: t=101.6368209170032, value=m, duration=1.9972473329980858>
+103.6789 	EXP 	prime_text: autoDraw = False
+103.6789 	EXP 	prime_text: autoDraw = False
+103.6789 	EXP 	gap1: autoDraw = True
+103.7236 	INFO 	Keyboard events cleared
+103.7234 	EXP 	gap1: autoDraw = False
+103.7234 	EXP 	gap1: autoDraw = False
+103.7234 	EXP 	target_text: height = np.float64(0.05)
+103.7234 	EXP 	target_text: height = np.float64(0.05)
+103.7234 	EXP 	target_text: height = np.float64(0.05)
+103.7234 	EXP 	target_text: text = 'speaker'
+103.7234 	EXP 	target_text: autoDraw = True
+104.2409 	EXP 	Device response: <KeyPress from None: t=104.23368800000026, value=m, duration=None>
+104.2415 	EXP 	New trial (rep=0, index=83): <Trial 83 (83 in rep 0) data={'prime': 'bread', 'target': 'buttera', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 83, 'thisTrialN': 83, 'thisRepN': 0}>
+104.2457 	DATA 	Keypress: m
+104.2514 	EXP 	target_text: autoDraw = False
+104.2514 	EXP 	prime_text: text = ' prime'
+104.2514 	EXP 	prime_text: autoDraw = True
+104.3964 	EXP 	prime_text: autoDraw = False
+104.3964 	EXP 	prime_text: autoDraw = False
+104.3964 	EXP 	gap1: autoDraw = True
+104.3980 	EXP 	Device response: <KeyPress from None: t=103.52173208299791, value=m, duration=0.8722540000017034>
+104.4414 	INFO 	Keyboard events cleared
+104.4412 	EXP 	gap1: autoDraw = False
+104.4412 	EXP 	gap1: autoDraw = False
+104.4412 	EXP 	target_text: height = np.float64(0.05)
+104.4412 	EXP 	target_text: height = np.float64(0.05)
+104.4412 	EXP 	target_text: height = np.float64(0.05)
+104.4412 	EXP 	target_text: text = 'buttera'
+104.4412 	EXP 	target_text: autoDraw = True
+105.1641 	EXP 	Device response: <KeyPress from None: t=105.16073383299954, value=z, duration=None>
+105.1647 	EXP 	New trial (rep=0, index=84): <Trial 84 (84 in rep 0) data={'prime': 'river', 'target': 'chair', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 84, 'thisTrialN': 84, 'thisRepN': 0}>
+105.1691 	DATA 	Keypress: z
+105.1749 	EXP 	target_text: autoDraw = False
+105.1749 	EXP 	prime_text: text = ' prime'
+105.1749 	EXP 	prime_text: autoDraw = True
+105.2797 	EXP 	Device response: <KeyPress from None: t=102.45875583300221, value=z, duration=2.8142847920025815>
+105.3223 	EXP 	prime_text: autoDraw = False
+105.3223 	EXP 	prime_text: autoDraw = False
+105.3223 	EXP 	gap1: autoDraw = True
+105.3672 	INFO 	Keyboard events cleared
+105.3671 	EXP 	gap1: autoDraw = False
+105.3671 	EXP 	gap1: autoDraw = False
+105.3671 	EXP 	target_text: height = np.float64(0.05)
+105.3671 	EXP 	target_text: height = np.float64(0.05)
+105.3671 	EXP 	target_text: height = np.float64(0.05)
+105.3671 	EXP 	target_text: text = 'chair'
+105.3671 	EXP 	target_text: autoDraw = True
+105.8309 	EXP 	Device response: <KeyPress from None: t=105.82568091699795, value=m, duration=None>
+105.8314 	EXP 	New trial (rep=0, index=85): <Trial 85 (85 in rep 0) data={'prime': 'king', 'target': 'marker', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 85, 'thisTrialN': 85, 'thisRepN': 0}>
+105.8359 	DATA 	Keypress: m
+105.8417 	EXP 	target_text: autoDraw = False
+105.8417 	EXP 	prime_text: text = ' prime'
+105.8417 	EXP 	prime_text: autoDraw = True
+105.9887 	EXP 	prime_text: autoDraw = False
+105.9887 	EXP 	prime_text: autoDraw = False
+105.9887 	EXP 	gap1: autoDraw = True
+106.0241 	EXP 	Device response: <KeyPress from None: t=104.23368800000026, value=m, duration=1.7844738330022665>
+106.0356 	INFO 	Keyboard events cleared
+106.0355 	EXP 	gap1: autoDraw = False
+106.0355 	EXP 	gap1: autoDraw = False
+106.0355 	EXP 	target_text: height = np.float64(0.05)
+106.0355 	EXP 	target_text: height = np.float64(0.05)
+106.0355 	EXP 	target_text: height = np.float64(0.05)
+106.0355 	EXP 	target_text: text = 'marker'
+106.0355 	EXP 	target_text: autoDraw = True
+106.6751 	EXP 	Device response: <KeyPress from None: t=106.66364133299794, value=m, duration=None>
+106.6758 	EXP 	New trial (rep=0, index=86): <Trial 86 (86 in rep 0) data={'prime': 'flower', 'target': 'petaln', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 86, 'thisTrialN': 86, 'thisRepN': 0}>
+106.6802 	DATA 	Keypress: m
+106.6858 	EXP 	target_text: autoDraw = False
+106.6858 	EXP 	prime_text: text = ' prime'
+106.6858 	EXP 	prime_text: autoDraw = True
+106.7909 	EXP 	Device response: <KeyPress from None: t=105.82568091699795, value=m, duration=0.9583157910019509>
+106.8298 	EXP 	prime_text: autoDraw = False
+106.8298 	EXP 	prime_text: autoDraw = False
+106.8298 	EXP 	gap1: autoDraw = True
+106.8888 	INFO 	Keyboard events cleared
+106.8886 	EXP 	gap1: autoDraw = False
+106.8886 	EXP 	gap1: autoDraw = False
+106.8886 	EXP 	target_text: height = np.float64(0.05)
+106.8886 	EXP 	target_text: height = np.float64(0.05)
+106.8886 	EXP 	target_text: height = np.float64(0.05)
+106.8886 	EXP 	target_text: text = 'petaln'
+106.8886 	EXP 	target_text: autoDraw = True
+107.6147 	EXP 	Device response: <KeyPress from None: t=107.61165208300372, value=z, duration=None>
+107.6152 	EXP 	New trial (rep=0, index=87): <Trial 87 (87 in rep 0) data={'prime': 'road', 'target': 'streetq', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 87, 'thisTrialN': 87, 'thisRepN': 0}>
+107.6194 	DATA 	Keypress: z
+107.6253 	EXP 	target_text: autoDraw = False
+107.6253 	EXP 	prime_text: text = ' prime'
+107.6253 	EXP 	prime_text: autoDraw = True
+107.7475 	EXP 	Device response: <KeyPress from None: t=105.16073383299954, value=z, duration=2.583197708998341>
+107.7724 	EXP 	prime_text: autoDraw = False
+107.7724 	EXP 	prime_text: autoDraw = False
+107.7724 	EXP 	gap1: autoDraw = True
+107.8175 	INFO 	Keyboard events cleared
+107.8173 	EXP 	gap1: autoDraw = False
+107.8173 	EXP 	gap1: autoDraw = False
+107.8173 	EXP 	target_text: height = np.float64(0.05)
+107.8173 	EXP 	target_text: height = np.float64(0.05)
+107.8173 	EXP 	target_text: height = np.float64(0.05)
+107.8173 	EXP 	target_text: text = 'streetq'
+107.8173 	EXP 	target_text: autoDraw = True
+108.3644 	EXP 	Device response: <KeyPress from None: t=108.35766087500087, value=z, duration=None>
+108.3649 	EXP 	New trial (rep=0, index=88): <Trial 88 (88 in rep 0) data={'prime': 'salt', 'target': 'camerao', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 88, 'thisTrialN': 88, 'thisRepN': 0}>
+108.3694 	DATA 	Keypress: z
+108.3754 	EXP 	target_text: autoDraw = False
+108.3754 	EXP 	prime_text: text = ' prime'
+108.3754 	EXP 	prime_text: autoDraw = True
+108.4912 	EXP 	Device response: <KeyPress from None: t=107.61165208300372, value=z, duration=0.8742986249999376>
+108.5222 	EXP 	prime_text: autoDraw = False
+108.5222 	EXP 	prime_text: autoDraw = False
+108.5222 	EXP 	gap1: autoDraw = True
+108.5674 	INFO 	Keyboard events cleared
+108.5673 	EXP 	gap1: autoDraw = False
+108.5673 	EXP 	gap1: autoDraw = False
+108.5673 	EXP 	target_text: height = np.float64(0.05)
+108.5673 	EXP 	target_text: height = np.float64(0.05)
+108.5673 	EXP 	target_text: height = np.float64(0.05)
+108.5673 	EXP 	target_text: text = 'camerao'
+108.5673 	EXP 	target_text: autoDraw = True
+109.0977 	EXP 	Device response: <KeyPress from None: t=109.08963624999888, value=z, duration=None>
+109.0983 	EXP 	New trial (rep=0, index=89): <Trial 89 (89 in rep 0) data={'prime': 'book', 'target': 'pageq', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 89, 'thisTrialN': 89, 'thisRepN': 0}>
+109.1026 	DATA 	Keypress: z
+109.1088 	EXP 	target_text: autoDraw = False
+109.1088 	EXP 	prime_text: text = ' prime'
+109.1088 	EXP 	prime_text: autoDraw = True
+109.2306 	EXP 	Device response: <KeyPress from None: t=108.35766087500087, value=z, duration=0.8682224579970352>
+109.2561 	EXP 	prime_text: autoDraw = False
+109.2561 	EXP 	prime_text: autoDraw = False
+109.2561 	EXP 	gap1: autoDraw = True
+109.3010 	INFO 	Keyboard events cleared
+109.3008 	EXP 	gap1: autoDraw = False
+109.3008 	EXP 	gap1: autoDraw = False
+109.3008 	EXP 	target_text: height = np.float64(0.05)
+109.3008 	EXP 	target_text: height = np.float64(0.05)
+109.3008 	EXP 	target_text: height = np.float64(0.05)
+109.3008 	EXP 	target_text: text = 'pageq'
+109.3008 	EXP 	target_text: autoDraw = True
+109.7579 	EXP 	Device response: <KeyPress from None: t=109.74761779200344, value=z, duration=None>
+109.7585 	EXP 	New trial (rep=0, index=90): <Trial 90 (90 in rep 0) data={'prime': 'heart', 'target': 'mountainp', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 90, 'thisTrialN': 90, 'thisRepN': 0}>
+109.7633 	DATA 	Keypress: z
+109.7689 	EXP 	target_text: autoDraw = False
+109.7689 	EXP 	prime_text: text = ' prime'
+109.7689 	EXP 	prime_text: autoDraw = True
+109.9129 	EXP 	prime_text: autoDraw = False
+109.9129 	EXP 	prime_text: autoDraw = False
+109.9129 	EXP 	gap1: autoDraw = True
+109.9302 	EXP 	Device response: <KeyPress from None: t=109.08963624999888, value=z, duration=0.8342977080028504>
+109.9671 	INFO 	Keyboard events cleared
+109.9669 	EXP 	gap1: autoDraw = False
+109.9669 	EXP 	gap1: autoDraw = False
+109.9669 	EXP 	target_text: height = np.float64(0.05)
+109.9669 	EXP 	target_text: height = np.float64(0.05)
+109.9669 	EXP 	target_text: height = np.float64(0.05)
+109.9669 	EXP 	target_text: text = 'mountainp'
+109.9669 	EXP 	target_text: autoDraw = True
+110.4476 	EXP 	Device response: <KeyPress from None: t=110.44158866700309, value=m, duration=None>
+110.4482 	EXP 	New trial (rep=0, index=91): <Trial 91 (91 in rep 0) data={'prime': 'cat', 'target': 'pencil', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 91, 'thisTrialN': 91, 'thisRepN': 0}>
+110.4526 	DATA 	Keypress: m
+110.4586 	EXP 	target_text: autoDraw = False
+110.4586 	EXP 	prime_text: text = ' prime'
+110.4586 	EXP 	prime_text: autoDraw = True
+110.5816 	EXP 	Device response: <KeyPress from None: t=106.66364133299794, value=m, duration=3.9102811670018127>
+110.6224 	EXP 	prime_text: autoDraw = False
+110.6224 	EXP 	gap1: autoDraw = True
+110.6668 	INFO 	Keyboard events cleared
+110.6667 	EXP 	gap1: autoDraw = False
+110.6667 	EXP 	target_text: height = np.float64(0.05)
+110.6667 	EXP 	target_text: height = np.float64(0.05)
+110.6667 	EXP 	target_text: height = np.float64(0.05)
+110.6667 	EXP 	target_text: text = 'pencil'
+110.6667 	EXP 	target_text: autoDraw = True
+111.3140 	EXP 	Device response: <KeyPress from None: t=111.30659433300025, value=m, duration=None>
+111.3145 	EXP 	New trial (rep=0, index=92): <Trial 92 (92 in rep 0) data={'prime': 'cat', 'target': 'pencilu', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 92, 'thisTrialN': 92, 'thisRepN': 0}>
+111.3188 	DATA 	Keypress: m
+111.3249 	EXP 	target_text: autoDraw = False
+111.3249 	EXP 	prime_text: text = ' prime'
+111.3249 	EXP 	prime_text: autoDraw = True
+111.4577 	EXP 	Device response: <KeyPress from None: t=110.44158866700309, value=m, duration=1.0053106659979676>
+111.4721 	EXP 	prime_text: autoDraw = False
+111.4721 	EXP 	gap1: autoDraw = True
+111.5174 	INFO 	Keyboard events cleared
+111.5172 	EXP 	gap1: autoDraw = False
+111.5172 	EXP 	gap1: autoDraw = False
+111.5172 	EXP 	target_text: height = np.float64(0.05)
+111.5172 	EXP 	target_text: height = np.float64(0.05)
+111.5172 	EXP 	target_text: height = np.float64(0.05)
+111.5172 	EXP 	target_text: text = 'pencilu'
+111.5172 	EXP 	target_text: autoDraw = True
+112.1574 	EXP 	Device response: <KeyPress from None: t=112.14951537500019, value=z, duration=None>
+112.1580 	EXP 	New trial (rep=0, index=93): <Trial 93 (93 in rep 0) data={'prime': 'pen', 'target': 'shoe', 'relation': 'unrelated', 'target_type': 'word', 'correct_key': 'm', 'thisN': 93, 'thisTrialN': 93, 'thisRepN': 0}>
+112.1624 	DATA 	Keypress: z
+112.1681 	EXP 	target_text: autoDraw = False
+112.1681 	EXP 	prime_text: text = ' prime'
+112.1681 	EXP 	prime_text: autoDraw = True
+112.2733 	EXP 	Device response: <KeyPress from None: t=109.74761779200344, value=z, duration=2.522250249996432>
+112.3128 	EXP 	prime_text: autoDraw = False
+112.3128 	EXP 	prime_text: autoDraw = False
+112.3128 	EXP 	gap1: autoDraw = True
+112.3722 	INFO 	Keyboard events cleared
+112.3720 	EXP 	gap1: autoDraw = False
+112.3720 	EXP 	gap1: autoDraw = False
+112.3720 	EXP 	target_text: height = np.float64(0.05)
+112.3720 	EXP 	target_text: height = np.float64(0.05)
+112.3720 	EXP 	target_text: height = np.float64(0.05)
+112.3720 	EXP 	target_text: text = 'shoe'
+112.3720 	EXP 	target_text: autoDraw = True
+113.0245 	EXP 	Device response: <KeyPress from None: t=113.01450666700111, value=m, duration=None>
+113.0250 	EXP 	New trial (rep=0, index=94): <Trial 94 (94 in rep 0) data={'prime': 'cat', 'target': 'dog', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 94, 'thisTrialN': 94, 'thisRepN': 0}>
+113.0286 	DATA 	Keypress: m
+113.0328 	EXP 	target_text: autoDraw = False
+113.0328 	EXP 	prime_text: text = ' prime'
+113.0328 	EXP 	prime_text: autoDraw = True
+113.1734 	EXP 	Device response: <KeyPress from None: t=111.30659433300025, value=m, duration=1.856230625002354>
+113.1814 	EXP 	prime_text: autoDraw = False
+113.1814 	EXP 	prime_text: autoDraw = False
+113.1814 	EXP 	gap1: autoDraw = True
+113.2385 	INFO 	Keyboard events cleared
+113.2383 	EXP 	gap1: autoDraw = False
+113.2383 	EXP 	gap1: autoDraw = False
+113.2383 	EXP 	target_text: height = np.float64(0.05)
+113.2383 	EXP 	target_text: height = np.float64(0.05)
+113.2383 	EXP 	target_text: height = np.float64(0.05)
+113.2383 	EXP 	target_text: text = 'dog'
+113.2383 	EXP 	target_text: autoDraw = True
+113.8808 	EXP 	Device response: <KeyPress from None: t=113.87659449999774, value=m, duration=None>
+113.8814 	EXP 	New trial (rep=0, index=95): <Trial 95 (95 in rep 0) data={'prime': 'bread', 'target': 'butter', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 95, 'thisTrialN': 95, 'thisRepN': 0}>
+113.8849 	DATA 	Keypress: m
+113.8896 	EXP 	target_text: autoDraw = False
+113.8896 	EXP 	prime_text: text = ' prime'
+113.8896 	EXP 	prime_text: autoDraw = True
+114.0245 	EXP 	Device response: <KeyPress from None: t=113.01450666700111, value=m, duration=1.0023287910007639>
+114.0325 	EXP 	prime_text: autoDraw = False
+114.0325 	EXP 	prime_text: autoDraw = False
+114.0325 	EXP 	gap1: autoDraw = True
+114.0852 	INFO 	Keyboard events cleared
+114.0851 	EXP 	gap1: autoDraw = False
+114.0851 	EXP 	gap1: autoDraw = False
+114.0851 	EXP 	target_text: height = np.float64(0.05)
+114.0851 	EXP 	target_text: height = np.float64(0.05)
+114.0851 	EXP 	target_text: height = np.float64(0.05)
+114.0851 	EXP 	target_text: text = 'butter'
+114.0851 	EXP 	target_text: autoDraw = True
+114.6743 	EXP 	Device response: <KeyPress from None: t=114.66650216699782, value=m, duration=None>
+114.6749 	EXP 	New trial (rep=0, index=96): <Trial 96 (96 in rep 0) data={'prime': 'doctor', 'target': 'tabler', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 96, 'thisTrialN': 96, 'thisRepN': 0}>
+114.6792 	DATA 	Keypress: m
+114.6851 	EXP 	target_text: autoDraw = False
+114.6851 	EXP 	prime_text: text = ' prime'
+114.6851 	EXP 	prime_text: autoDraw = True
+114.8288 	EXP 	prime_text: autoDraw = False
+114.8288 	EXP 	prime_text: autoDraw = False
+114.8288 	EXP 	gap1: autoDraw = True
+114.8406 	EXP 	Device response: <KeyPress from None: t=113.87659449999774, value=m, duration=0.9542510420069448>
+114.8725 	INFO 	Keyboard events cleared
+114.8723 	EXP 	gap1: autoDraw = False
+114.8723 	EXP 	gap1: autoDraw = False
+114.8723 	EXP 	target_text: height = np.float64(0.05)
+114.8723 	EXP 	target_text: height = np.float64(0.05)
+114.8723 	EXP 	target_text: height = np.float64(0.05)
+114.8723 	EXP 	target_text: text = 'tabler'
+114.8723 	EXP 	target_text: autoDraw = True
+115.5409 	EXP 	Device response: <KeyPress from None: t=115.53650579199893, value=z, duration=None>
+115.5415 	EXP 	New trial (rep=0, index=97): <Trial 97 (97 in rep 0) data={'prime': 'bird', 'target': 'cupq', 'relation': 'unrelated', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 97, 'thisTrialN': 97, 'thisRepN': 0}>
+115.5461 	DATA 	Keypress: z
+115.5519 	EXP 	target_text: autoDraw = False
+115.5519 	EXP 	prime_text: text = ' prime'
+115.5519 	EXP 	prime_text: autoDraw = True
+115.6578 	EXP 	Device response: <KeyPress from None: t=112.14951537500019, value=z, duration=3.4992892919981387>
+115.6959 	EXP 	prime_text: autoDraw = False
+115.6959 	EXP 	prime_text: autoDraw = False
+115.6959 	EXP 	gap1: autoDraw = True
+115.7405 	INFO 	Keyboard events cleared
+115.7403 	EXP 	gap1: autoDraw = False
+115.7403 	EXP 	gap1: autoDraw = False
+115.7403 	EXP 	target_text: height = np.float64(0.05)
+115.7403 	EXP 	target_text: height = np.float64(0.05)
+115.7403 	EXP 	target_text: height = np.float64(0.05)
+115.7403 	EXP 	target_text: text = 'cupq'
+115.7403 	EXP 	target_text: autoDraw = True
+116.3313 	EXP 	Device response: <KeyPress from None: t=116.32448512499832, value=z, duration=None>
+116.3318 	EXP 	New trial (rep=0, index=98): <Trial 98 (98 in rep 0) data={'prime': 'rain', 'target': 'cloudx', 'relation': 'related', 'target_type': 'nonword', 'correct_key': 'z', 'thisN': 98, 'thisTrialN': 98, 'thisRepN': 0}>
+116.3364 	DATA 	Keypress: z
+116.3425 	EXP 	target_text: autoDraw = False
+116.3425 	EXP 	prime_text: text = ' prime'
+116.3425 	EXP 	prime_text: autoDraw = True
+116.4813 	EXP 	Device response: <KeyPress from None: t=115.53650579199893, value=z, duration=0.9402246250028838>
+116.4896 	EXP 	prime_text: autoDraw = False
+116.4896 	EXP 	prime_text: autoDraw = False
+116.4896 	EXP 	gap1: autoDraw = True
+116.5337 	INFO 	Keyboard events cleared
+116.5335 	EXP 	gap1: autoDraw = False
+116.5335 	EXP 	gap1: autoDraw = False
+116.5335 	EXP 	target_text: height = np.float64(0.05)
+116.5335 	EXP 	target_text: height = np.float64(0.05)
+116.5335 	EXP 	target_text: height = np.float64(0.05)
+116.5335 	EXP 	target_text: text = 'cloudx'
+116.5335 	EXP 	target_text: autoDraw = True
+117.0074 	EXP 	Device response: <KeyPress from None: t=117.00343166699895, value=z, duration=None>
+117.0078 	EXP 	New trial (rep=0, index=99): <Trial 99 (99 in rep 0) data={'prime': 'rain', 'target': 'cloud', 'relation': 'related', 'target_type': 'word', 'correct_key': 'm', 'thisN': 99, 'thisTrialN': 99, 'thisRepN': 0}>
+117.0120 	DATA 	Keypress: z
+117.0177 	EXP 	target_text: autoDraw = False
+117.0177 	EXP 	prime_text: text = ' prime'
+117.0177 	EXP 	prime_text: autoDraw = True
+117.1476 	EXP 	Device response: <KeyPress from None: t=116.32448512499832, value=z, duration=0.8192236670001876>
+117.1631 	EXP 	prime_text: autoDraw = False
+117.1631 	EXP 	prime_text: autoDraw = False
+117.1631 	EXP 	gap1: autoDraw = True
+117.2221 	INFO 	Keyboard events cleared
+117.2219 	EXP 	gap1: autoDraw = False
+117.2219 	EXP 	gap1: autoDraw = False
+117.2219 	EXP 	target_text: height = np.float64(0.05)
+117.2219 	EXP 	target_text: height = np.float64(0.05)
+117.2219 	EXP 	target_text: height = np.float64(0.05)
+117.2219 	EXP 	target_text: text = 'cloud'
+117.2219 	EXP 	target_text: autoDraw = True
+117.7242 	EXP 	Device response: <KeyPress from None: t=117.72138012500363, value=m, duration=None>
+117.7296 	DATA 	Keypress: m
+117.7353 	EXP 	target_text: autoDraw = False
+117.7353 	EXP 	text: autoDraw = True
+117.8582 	EXP 	Device response: <KeyPress from None: t=114.66650216699782, value=m, duration=3.1872073330014246>
+118.2319 	INFO 	Keyboard events cleared
+118.2318 	EXP 	text: autoDraw = False
+118.2318 	EXP 	text: autoDraw = False
+118.2318 	EXP 	end_text: autoDraw = True
+126.9407 	EXP 	Device response: <KeyPress from None: t=126.93512866699893, value=b, duration=None>
+126.9451 	DATA 	Keypress: b
+126.9469 	DATA 	Keypress: v
+126.9538 	EXP 	Device response: <KeyPress from None: t=126.94120070800273, value=v, duration=None>
+127.0083 	EXP 	Device response: <KeyPress from None: t=126.94120070800273, value=v, duration=0.055992708999838214>
+127.0174 	EXP 	Device response: <KeyPress from None: t=126.93512866699893, value=b, duration=0.07830941599968355>
+127.3577 	EXP 	Device response: <KeyPress from None: t=127.3471817919999, value=space, duration=None>
+127.3613 	DATA 	Keypress: space
+127.3670 	EXP 	end_text: autoDraw = False
+127.3671 	EXP 	solo project: status = STOPPED
+127.3969 	INFO 	saved data to '/Users/ayk-j/Desktop/solo/data/04_solo project_2025-11-17_16h26.13.514.csv'
+127.4007 	INFO 	saved data to /Users/ayk-j/Desktop/solo/data/04_solo project_2025-11-17_16h26.13.514.psydat
+127.5126 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+127.5127 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+127.5127 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+127.5127 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
